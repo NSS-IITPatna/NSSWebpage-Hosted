@@ -1,0 +1,663 @@
+{
+  "cells": {
+    "chetna": {
+      "color_theme": "green",
+      "header": "CHETNA",
+      "header_text": "We work as push-up for various nss teams and organise various camps.",
+      "image_url": "images/chetna/chetna.jpg",
+      "section_aims": {
+        "content": [
+          {
+            "event_image_url": "images/chetna/video.jpg",
+            "event_name": "WASTE MANAGEMENT",
+            "event_text": "Planning proper waste management system in IIT Patna campus. Waste management is intended to reduce adverse effects of waste on health, environment and aesthetics."
+          },
+          {
+            "event_image_url": "images/chetna/c1.jpg",
+            "event_name": "STREET PLAY",
+            "event_text": "Our chetna team is planning to conduct a street play on the ocassion of republic day to create a feeling of pride for our nation."
+          },
+          {
+            "event_image_url": "images/chetna/item5.jpg",
+            "event_name": "OFFICIAL BLOG",
+            "event_text": "Chetna team is planning to launch NSS IIT Patna official blog where people can share there ideas and experiences with us."
+          },
+          {
+            "event_image_url": "images/chetna/item14.jpg",
+            "event_name": "BLOOD DONATION",
+            "event_text": "Chetna team is planning for another blood donation camp in month of january or february in more planned and structured way."
+          }
+        ],
+        "header": "Future Plans and Goals",
+        "section_image_url": "images/chetna/img_2.jpg",
+        "sub_header": "चेतना ही विकास की जड़ होती है"
+      },
+      "section_main": {
+        "content": [
+          {
+            "event_image_url": "images/chetna/chetna2.jpg",
+            "event_name": "Kerala Flood Distress Relief Fund",
+            "event_text": "Kerala faced devastating floods in the month of August. So Chetna team with collaboration of Students's Gymkhana collected funds from hostels, faculty quarters, etc.Total amount collected was nearly 28,000 from the student body in cash. Moreover, online portals were also active. The total contribution from IIT P family was around 2 lakhs.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/chetna/chetna1.jpg",
+            "event_name": "Blood Donation Camp",
+            "event_text": "Blood donation is major concern to the society as donated blood is lifesaving for individuals who need it. There is shortage of active blood donors and to overcome this problem NSS IITP organise blood donation camp every year. This year it was organised on 8 September 2018 and we get nearly 80 units of blood! An online quiz and painting competition were organised by us to spread awareness about blood donation.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/chetna/ashraya.jpg",
+            "event_name": "Ashraya",
+            "event_text": "Ashraya, a charity event of celesta ,was organised in which student fraternity will be visiting a school where we would interact with students and organize fun activities, also providing them with basic provisions. To make this event success Chetna team collabrated with celesta team to collect donation in hostels, faculty quarters and staff quarters.This event was organised on 10 October 2018.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          }
+        ],
+        "header": "Recent Events",
+        "sub_header": ""
+      }
+    },
+    "environment": {
+      "color_theme": "green",
+      "header": "ENVIRONMENT",
+      "header_text": "We, <b><font color=\"#0ff71b\">ENVIRONMENT</font></b> team of NSS aim to plan and develop a cleaner and greener future for our campus and the nearby areas.",
+      "image_url": "images/environment/img_2.jpg",
+      "section_aims": {
+        "content": [
+          {
+            "event_image_url": "images/environment/img_2.jpg",
+            "event_name": "Clean Society",
+            "event_text": ""
+          },
+          {
+            "event_image_url": "images/environment/img_2.jpg",
+            "event_name": "<font color=\"green\">Green</font> Society",
+            "event_text": ""
+          },
+          {
+            "event_image_url": "images/environment/img_2.jpg",
+            "event_name": "No Wastage",
+            "event_text": ""
+          },
+          {
+            "event_image_url": "images/environment/img_2.jpg",
+            "event_name": "Biodiversity",
+            "event_text": ""
+          }
+        ],
+        "header": "What we thrive ?",
+        "section_image_url": "images/environment/img_2.jpg",
+        "sub_header": "Problems in society never stop coming, and neither will we stop solving them."
+      },
+      "section_main": {
+        "content": [
+          {
+            "event_image_url": "images/environment/img_1.jpg",
+            "event_name": "In-campus Plantation",
+            "event_text": "This group aims at keeping the campus green , save the endangered environment and to beautify our life by planting trees at appropriate places inside the Campus. We protect plants to maintain the biodiversity and to preserve the flora and fauna.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/environment/img_7.jpg",
+            "event_name": "Clean India",
+            "event_text": "Swachh Bharat Abhiyan launched by our prime minister, invalues the constitution of latrines, promoting sanitation programmes in the rural area, cleaning streets, roads and changing the infrastructure of the country to lead the country ahead. We wish to contribute in this mission by implementing it inside our campus and nearby areas",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/environment/img_3.jpg",
+            "event_name": "Out-campus Plantation",
+            "event_text": "We started with spreading awareness amongst the people in the nearby village Amhara about the various plantation schemes which the government is running for the benefit of them. We collected a lot of information about problems villagers are facing. Now we are going to explain these schemes to the villagers and help them with their scheme of interest. We aid them in contacting the government and regularly attend them to help them time to time.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/environment/img_6.jpg",
+            "event_name": "Plantation Drives",
+            "event_text": "Plantation Drive was organized by us on 18th November 2018. All the necessary arrangements were made by the students so as to make the plantation drive a success. We bought about 150 saplings of ARJUNA tree. The team had already located areas where the plants need to be planted and within 4 hours, about 110 trees were planted. Students dug the ground and planted trees by themselves along with the assistance of NSS volunteers. The NSS Environment cell looks forward to organizing the same in future.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/environment/img_9.jpg",
+            "event_name": "Cleanliness Drives",
+            "event_text": "Under the Swachhta Pakhwada Of Swachh Bharat Mission, Five cleanliness drives were conducted by the NSS Environment wing. We collected the wastes spread around the area and also promoted segregation of waste materials. Professor-InCharge of NSS also participated in these drives to motivate us towards keeping our surroundings clean. Cleanliness Drives were conducted inside the campus from 8th to 15th September 2018.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/environment/img_8.jpg",
+            "event_name": "Future Plans",
+            "event_text": "We are going to help people in the nearby villages with their agricultural problems and aim to develop an innovation team in our cell to come up with new ideas to improve the agriculture conditions of the villagers. Through the innovation team, we will not just be helping farmers nearby, but whole India. We have also planned to work towards creating a park inside the campus.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          }
+        ],
+        "header": "What we do ?",
+        "sub_header": ""
+      }
+    },
+    "rural": {
+      "color_theme": "green",
+      "header": "RURAL DEVELOPMENT",
+      "header_text": "A new day has started with the sun blossoming it's sunshine all over spreading the warmth of service to humanity. The team also works to increase health standards of women.The Rural development wing of NSS spreads the message of independent living and positive thinking a hope to see bright futures ahead!!",
+      "image_url": "images/rural/ruraldev1.jpg",
+      "section_aims": {
+        "content": [
+          {
+            "event_image_url": "images/rural/shg.jpg",
+            "event_name": "SELF-HELP GROUPS",
+            "event_text": "Our Team is in preparation of establishing self help group in villages and we are in regular contact with the concerned authorites"
+          },
+          {
+            "event_image_url": "images/rural/startup.png",
+            "event_name": "Startups",
+            "event_text": "We aim to discover small scale techniques for employing the youth of the amhara village."
+          },
+          {
+            "event_image_url": "images/rural/aware.png",
+            "event_name": "Awareness",
+            "event_text": "We also aim to inform Them regarding various government schemes for their development."
+          },
+          {
+            "event_image_url": "images/rural/empower.jpg",
+            "event_name": "Women Empowerment",
+            "event_text": "We aim To make them comfortable enough so that they can talk about such issues among them."
+          }
+        ],
+        "header": "Our Objectives",
+        "section_image_url": "images/rural/ruraldev1.jpg",
+        "sub_header": "Problems in society never stop coming, and neither will we stop solving them."
+      },
+      "section_main": {
+        "content": [
+          {
+            "event_image_url": "images/rural/wool.jpg",
+            "event_name": "Old Woolen Cloth Donation<br>24/12/2018",
+            "event_text": "In these freezy winter’s there are many people out having no proper clothes to wear where as the better ones are trying to get some thick blankets. Our team caring for the unseen world as promised earlier donates the collected woollen clothes to the needy ones.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/rural/clothbag.jpeg",
+            "event_name": "Cloth Bag from Old Cloth<br>17/11/2018",
+            "event_text": "The growing need for sustainable resources is a matter of concern for both environment and humans. Nothing could be much better than switching to a resource that replaces a nonsustainable one and also innovates the use of Waste Material. One such project that seems to be the need of the hour is \"CLOTH BAG\". The women of Amhara with their skills of stitching and sewing have made many cloth bags to replace the plastic ones. These bags can be used in many household chores and also they help the environment in regaining its beauty.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/rural/paper.png",
+            "event_name": "On-Going Projects<h3>Plastic to Paper Bag</h3>",
+            "event_text": "To replace the plastic bags and to start paper bag and cloth bag market the Rural Development cell aims to develop a start Up to involve women in strengthening their economic knowledge and develop their standards. It also comes under the latest action of Bihar Govt to Ban Polythene Throughout the Territory.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          }
+        ],
+        "header": "Recent Events",
+        "sub_header": ""
+      }
+    },
+    "teaching": {
+      "color_theme": "green",
+      "header": "TEACHING",
+      "header_text": "A true guiding light is what lightens up the path towards a better future of a child. The NSS teaching cell works on the same lines with a motive to teach the young students of Amhara and make them aware about the various career opportunities they have.",
+      "image_url": "images/teaching/teachinghome.jpeg",
+      "section_aims": {
+        "content": [
+          {
+            "event_image_url": "images/teaching/teachb.jpg",
+            "event_name": "Educational Training",
+            "event_text": "We give Navodaya Coaching to the students of the village."
+          },
+          {
+            "event_image_url": "images/teaching/teachb.jpg",
+            "event_name": "Exams",
+            "event_text": "Regular exams are conducted to check the proficiency of the students."
+          },
+          {
+            "event_image_url": "images/teaching/ptm.jpg",
+            "event_name": "Parents Teacher Meeting",
+            "event_text": "Parents teacher interaction are held to inform the parents about the progress of the students."
+          }
+        ],
+        "header": "What we thrive ?",
+        "section_image_url": "images/teaching/teachinghome.jpeg",
+        "sub_header": "Problems in society never stop coming, and neither will we stop solving them."
+      },
+      "section_main": {
+        "content": [
+          {
+            "event_image_url": "images/teaching/teach.png",
+            "event_name": "Regular Weekly Classes<br>Wednesday, Saturday, Sunday",
+            "event_text": "The Teaching Cell volunteers conduct classes in Amhara high school , Amhara, for 4 days in a week. All the subjects included in JNVST are covered during the classes in a systematic manner.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/teaching/teach.png",
+            "event_name": "Tests conducted on regular basis",
+            "event_text": "Tests based on all the subjects taught in the class are conducted once in a week . These tests are checked by the team volunteers and accordingly marks are given to the students. This helps the students to keep up with topics covered in the class and also study them regularly.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/teaching/teach.png",
+            "event_name": "On-Going Projects",
+            "event_text": "The Teaching Cell is aiming to increase the range of the exams for which they are preparing the children. This will include covering more subjects and efforts for the all-round development of the children.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          }
+        ],
+        "header": "Events We Conduct!!",
+        "sub_header": ""
+      }
+    },
+    "technical": {
+      "color_theme": "green",
+      "header": "TECHNICAL SKILLS",
+      "header_text": "<h2>Technology is just a tool.</h2>In terms of getting the kids working together and motivating them, the teacher is the most important.",
+      "image_url": "images/technical/tech_skill.jpeg",
+      "section_aims": {
+        "content": [
+          {
+            "event_image_url": "images/technical/computer.jpg",
+            "event_name": "Computer Education",
+            "event_text": "We teach them the basics of computer that are required in everyday life."
+          },
+          {
+            "event_image_url": "images/technical/english.png",
+            "event_name": "Spoken English",
+            "event_text": "We teach them how to communicate in English."
+          },
+          {
+            "event_image_url": "images/technical/test.jpeg",
+            "event_name": "Exams",
+            "event_text": "Exams are conducted regulary to check how much the students have learn."
+          },
+          {
+            "event_image_url": "images/technical/computer.jpg",
+            "event_name": "Computer Practical",
+            "event_text": "Practicals of computer are given to students, so that they can apply what they have learned."
+          },
+          {
+            "event_image_url": "images/technical/ptm.jpg",
+            "event_name": "Parents Teacher Meeting",
+            "event_text": "Parents Teacher meetings are conducted regularly."
+          }
+        ],
+        "header": "What We Teach",
+        "section_image_url": "images/technical/test.jpeg",
+        "sub_header": "Far far away, behind the word mountains, we have taught a lot. Few among them are..."
+      },
+      "section_main": {
+        "content": [
+          {
+            "event_image_url": "images/technical/test.jpeg",
+            "event_name": "Spoken English",
+            "event_text": "The Spoken English divison of NSS Technical Skill provides free Spoken English training to the village tem. Excelling them in the field of english grammar, pronounciation etc. They teach all the stuffs that would reduce the communciation gap among the students and the world.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/technical/comp.jpeg",
+            "event_name": "Computer",
+            "event_text": "The Computer divison of NSS Technical Skill provides free computer and technical education to the students of the village. We teach all those things that are required by an individual to fit himslef in this digital world. We have taught them to use all the basic softwares of computer. We have a future plan to teach them how to access the internet, ecommerce, e-banking, e-document chacking, land papers checking and many other useful things.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          },
+          {
+            "event_image_url": "images/technical/future.jpeg",
+            "event_name": "Future Plans",
+            "event_text": "Both the divisons work together under one umbrella \"Technical Skills\" with a motive to make the syudents self suffiecient to communicate with each other flawlessly and efficiently. Make them well acquainted with the digital world. Such that they become self sufficient to live a standard and helathy life. They should be able to make use of computer and mobile which has become an essential part of human life now a days.",
+            "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__[0]=68.ARATDyJ7mTF61aGRdsBTxEFnbFbnmyKCB649BRk_-qfybRR2Tyy18N0dh3i6ug7kSMxOGKvKfyIxxW1OrrEEgIz9QsCdOD-GcZ31dCWh_yhUTPo-RC6eNsWPXF7FlvJvgetYTofCIsDQHNcvMfyrfc7BPL8CfL5GIPEDumPg8SzIz8qLL_B6-NFYQRMIrMROK-4nP6zd3VUtV0otc8r4OifE7SslM8CIiTF4z9kJRH6Dn6N8UbPBHnU8Obf0eXTUurt7MbpIsd8KNCDYgGxbfTUfBCaZmtjwwigeI4qIf7WqpyJYhUx2u9FaPUIsLS6bk19fVOD-eyP8Ecqp8tXaNyQ&__tn__=-R"
+          }
+        ],
+        "header": "Our Activity...",
+        "sub_header": ""
+      }
+    }
+  },
+  "type": {
+    "events": [
+      {
+        "date": "8th March-10th March, 2019",
+        "details": "There is only one thing in the Universe which a woman still needs to learn and that one thing is that, ‘she has the power to turn the direction of the wind on her own’.                  Focussing on this fact NSS IIT Patna conducted events among women of the village to empower them.",
+        "flink": "https://www.facebook.com/nssiitp/posts/237835327037911?__xts__[0]=68.ARDvQ0cwKII8h8a_f3ybTQYPkTU0r-OSUo7umn08LET2PxcLtjAdW6Q5-XkG38SNssoHvmGA8HuzznpxHZfBb8rZ9HGRrjCh6_x68c9_bVhnhcs8tGPhnDCNnWj1Cr7NQgPYUx7-TM1pa2wB-VhrdhtiI0LyUMR6BYp1M2ZMeitaD2XvDyZgsd1qW7H26H7yX2G6oa2Te-poXENvXvLtIT0d95_tGYh86q27oqhyV9n7im8LQrc33hU3dtnDWLy60KFRyy6CZZIfi0n7ODvkzlka0OkE-XcQ_vjSo-QV-cp0krXouI-yCe70Q5CL9Gwn0QeNixi_kWxS8bZRxx4qPyYKg7-fvG1NEENyrr6db5eXnka76OYBaxvt_3GBDjc0PfanJ4tmZF3sfzqg3hWSQ_Az3DFR02Ncu1OJ5aESJy8Q&__tn__=-R",
+        "id": "1",
+        "img_url": "images/events/womens.jpg",
+        "subheading": "Womens Day"
+      },
+      {
+        "date": "27 Jan,2019",
+        "details": "\"Prayas\" an urge to help, and try till you succeed was the message spread by NSS. It was inaugurated on 27th of January with a basic aim to organise various activities for the children of Amhara High School.\"",
+        "flink": "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+        "id": "2",
+        "img_url": "images/events/prayas.jpg",
+        "subheading": "Prayas"
+      },
+      {
+        "date": "12 Jan 2019",
+        "details": "NSS IITP organised a march on the occasion of youth day on 12th Jan 2019 to promote the ideology of precious gem of India Swami Vivekananda.NSS IITP salute the great leader Swami Vivekananda and also to youth power of India.",
+        "flink": "https://www.facebook.com/nssiitp/posts/218330198988424?__xts__[0]=68.ARB-Rtr7ArQWi3OSei66waa-1-3N4-q2bVak266kqvxzHkJ_-6hkHKhup5Xl2aCX2QJHe0CsVdIjzTS488gWdWPyoy8qJIGfKWarwcKQSMf_nMkFJ1_c0L_FX1pvbquW1eATJDBrLZVAYaM9o0rn5lE4X9oJS8HtiZP7XqedlmBkP61Zz05ffodHDuWvej22tlrb6y10cfVetMGrbiiW61ufPjz6BrrecBLR89VuXMdMsw1JiE26FNDlpCotD2qAJm1AD9YdCxderCvxTcs9WgDVpIO-k2HpQOd-nssfYgTl_KohBlKKh7GtqEwcHroDt-3K0LvDYY9pNgxH7biP-3k&__tn__=-R",
+        "id": "1",
+        "img_url": "images/events/youth.jpg",
+        "subheading": "National Youth Day"
+      },
+      {
+        "date": "December 2018",
+        "details": "With an aim to improvise and giving a better life the Rural Development Team of <span style='color: #15d445'>NSS IIT Patna</span> collected clothes that are donated by the Campus Staff and Faculty and Donated it to the Needy People of Nearby Area.",
+        "flink": "https://www.facebook.com/nssiitp/posts/211243519697092?__xts__[0]=68.ARBkZjPd1zWTPeAsfQU8KH6rO8es7oc5sfq9r0QJrI4HZ6LGHnnlLjUXUPYJBY3jp-T6Wdnvmc9OX86VRoF-PDXvMP8BpaHRlWoD6e-uEBc6TZwg4PAzmEeYNcgWutzGXs9fJ9EOKkvxjUu_DPEHDlFcX2HV4wxeu0T2RAF5BBNvw3_o5fi87D26y1bNlvmEukYULkYW_7SPQTB0qHwXe5xxWbBRwZfNp1QMDffREWA_u82dqsgrS9VpTYx9JF0fuuK7jeuubQk457zyQiFy3cJ_ZxOKOIiFhTU7-coxDGQLnrZxkgXw70MZmvt2CRTR5IaoiWMVowS2lGfeDLBzytU&__tn__=-R",
+        "id": "2",
+        "img_url": "images/events/cloth1.jpg",
+        "subheading": "Cloth Collection & Donation"
+      },
+      {
+        "date": "August 2018",
+        "details": "The <span style='color:rgb(230, 72, 10);'>Chetna Team</span> along with other thousands of organisations across India, took up an initiative to collect funds for the unfortunate and needy people of Kerala. A handsome amount of funds were collected from the Boy's hostel, the Girl's hostel and the Faculty quarter of IIT Patna.",
+        "flink": "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+        "id": "1",
+        "img_url": "images/events/flood.jpg",
+        "subheading": "Kerala Flood Relief"
+      },
+      {
+        "date": "8 September 2018",
+        "details": "An attitude of service always stands glorified! To implement this Chetna organised a blood donation camp which stood sucessful with collection of 80 units of blood.",
+        "flink": "https://www.facebook.com/nssiitp/posts/180218439466267?__tn__=-R",
+        "id": "2",
+        "img_url": "images/events/blood.jpg",
+        "subheading": "Blood Donation"
+      },
+      {
+        "date": "10 October 2018",
+        "details": "The NSS body served a helping hand to those who needs it. Its always good to give from what we have received.",
+        "flink": "https://www.facebook.com/nssiitp/posts/187976302023814?__xts__%5B0%5D=68.ARBSUhm8tedOB6Hqb4SnyJ-huYt6nBYETJhSZYEDDb7WShwiJZBLPOUzusj1IixnPV4CiOcNTqPa4llzNZZdWqy4P8r3wJhnBvJttBBON_Cl6Z8ZctLcQj646z8THTUwC1Ef0U9R8_guZGsr5Vq7mxuVZFtp5M2Y6jqA-trn2q-i-rv6LBMJ7RX8bUnxAcyPrwfTw2BpZFdQfDGOfJNfDI80Wkyt0JIx0TELiNxXh0WUeu36Mv-jH5nv6nL1QC5PVCKmhiofWN-UWAWWWyacxHr840uRUH2m7TpKKKJUFi0G2rbVsbN4rRH7x1oVo-oC_LezcNyZBqoqfhQJDRHL0q6-C8mI21fJ7Xc2GbmWzEk-q-_5laPG9NZLlwGxMpamU9Pzg9xW1SAH4JhJv0ebWXvEdUpQ3JPpNWR2cSdvkd2MruUng1jFUo2fSZOfkoZSNGGrhOiQY6aXR3XwEA&__tn__=-R",
+        "id": "1",
+        "img_url": "images/events/ashraya.jpg",
+        "subheading": "Ashraya"
+      },
+      {
+        "date": "Throughout the year",
+        "details": "Environment team aim to keep our environment clean and green so that we can be a motivation to others also. There is regular conduction of plantation drives to keep the environment healty.",
+        "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__%5B0%5D=68.ARBrSOFTUofHN0i2wXAufmtWwu0JM_EhXMjl5XCcvkSvpgIPT1fJuH28KpmNyFWtAWGFBkUpQs8UmWtyrA5iXICMYvgISLxEswGBSMJIfcr4o5pAwITyJ9y9sEQEHv4EnnypA_D-Vd03Bk4fm6S0w9_iuckpEVN-2VTdSh59zR7Rka8UCB8xZonBc4TejxnfScI_wltf6Lf_63SAhBSM8O-94E-F0GaCSF5c8X8NOKvTlkFU3wJt-c5kI_4PEvzol_VEgS9_tsIYcdZ_b5WcfK_32t6BqxjehUJzZBIjhKhGpKx9XLkeNgggqulaKb7EBmJWjrOWpg8a6NMv7Chp1i4&__tn__=-R",
+        "id": "2",
+        "img_url": "images/events/cplant.jpg",
+        "subheading": "In Campus Plantation"
+      },
+      {
+        "date": "Throughout the year",
+        "details": "Adhering to the principle of father Gandhi's idea of Swatcha Bharat has motivated us. Our practices are to promote proper sanitaion and maintain a sense of swatchta throughout the campus.",
+        "flink": "https://www.facebook.com/nssiitp/posts/181646689323442?__xts__[0]=68.ARBPAekDBgjsoDCiZONXTzg3vWyMN0mwtzFkKJGM980xT1Fp6qhpz6iqOyyjJ3yc9WOspqocMNdFvQs3_LXsMIzamGo8aAavaj_v1fOAhyHz3O3_VXAJWkTTYfTmS7cjCRL8ta1XXVMetZfsO9fDxkCRBUmkIeoQqc-cnrM82VrXviJZOMkLiZxmDSEPlRUDJJC89fCrlFTsPcomgKYXTQAZqGBmjupg-Yyc55s-Oi0kj_rK3RIG81nADelvYGJ2kSr6OsKg_-j3eagN4GFtofnCjWq4KhVmVVPhKpz204DGGvxjgyzgBaIEPC-Ww28fmgnkS1BVcTgF9C1Ue6qcTicHzRtT47eQxZYeZqHeYTaWFXa2MjxxGlBY7pfR0lnjrXpEcxAtqB9q3X8vVv6d1a5g6hvINI1TB23TFWmgZD8TlrDxpvFtcJiBW8ZfBEzXkYtMUamfHjvBS-Bu3A&__tn__=-R",
+        "id": "1",
+        "img_url": "images/events/swacchta.jpg",
+        "subheading": "Clean India"
+      },
+      {
+        "date": "November 2018",
+        "details": "Plantation drive was conducted inside the campus by NSS team, where many students, faculties, staffs adapted a tree of their own and took the responsibility to look after the trees.",
+        "flink": "https://www.facebook.com/nssiitp/posts/199356344219143?__xts__%5B0%5D=68.ARBrSOFTUofHN0i2wXAufmtWwu0JM_EhXMjl5XCcvkSvpgIPT1fJuH28KpmNyFWtAWGFBkUpQs8UmWtyrA5iXICMYvgISLxEswGBSMJIfcr4o5pAwITyJ9y9sEQEHv4EnnypA_D-Vd03Bk4fm6S0w9_iuckpEVN-2VTdSh59zR7Rka8UCB8xZonBc4TejxnfScI_wltf6Lf_63SAhBSM8O-94E-F0GaCSF5c8X8NOKvTlkFU3wJt-c5kI_4PEvzol_VEgS9_tsIYcdZ_b5WcfK_32t6BqxjehUJzZBIjhKhGpKx9XLkeNgggqulaKb7EBmJWjrOWpg8a6NMv7Chp1i4&__tn__=-R",
+        "id": "2",
+        "img_url": "images/events/iplant.jpg",
+        "subheading": "Plantation Drives"
+      },
+      {
+        "date": "Regular weekly classes",
+        "details": "English has become an integral part of our daily life. Focussing on this, the Technical Skill cell conduct regular classes of english for the students of the nearby villages. Weekly tests are conducted to check the proficiency of the students.",
+        "flink": "https://m.facebook.com/story.php?story_fbid=224310288390415&id=168963863925058",
+        "id": "1",
+        "img_url": "images/events/english.jpeg",
+        "subheading": "Spoken English"
+      },
+      {
+        "date": "Regular weekly classes",
+        "details": "Today's world is a Digital World. Life cannot be imagined without the use of mobile & computers. Focussing on this view the Technical Skill cell conducts regular computer training classes in the nearby villages. They teach them all the basic stuffs related to computer along with daily usage facilities available online. ",
+        "flink": "https://www.facebook.com/nssiitp/posts/199658464188931?__xts__%5B0%5D=68.ARA1LH_eD_yJyt3i0RhMIq-C1iNxMKjvIAzMB-xQ4awmVcun69_wpaxjEV_CbHV0AIdEoNdo6aFU2XZkxwgZ1B42a13hnOOjIJnfUK8SngPoOwESo0c0WfRM9cTjzcMYTu9xWazE608iGfvFR_MpPxHO8v3oegDCU3KCmsKgAM2lwoJtIvMi0fe-yNDvz4KqV1rX1zyg2lTUrJ69n-Mk2yZkNsqCDx8JgweZnoAOFfHaju2sJOTcPT04faDQJrF-LfhmKNmViQDFfA_qd6PCnGdj_7wpit0Flw8j9i8ZgGW5Js9Gx05pf1Y8JCIf6aMXLReKokV4DjvgDe0HsDIJ5u8&__tn__=-R",
+        "id": "2",
+        "img_url": "images/events/comp.jpg",
+        "subheading": "Computer Education"
+      },
+      {
+        "date": "Regular weekly classes",
+        "details": "About 4 classes are conducted in a week and subjects are taught to the children of Amhara village in a systematic manner.Subjects covering syllabus under JNVST are taught by the volunteers of Teaching cell. Weekly testa are also conducted to check the performance of the students",
+        "flink": "https://www.facebook.com/nssiitp/posts/176959759792135?__tn__=-R",
+        "id": "1",
+        "img_url": "images/events/navodaya.jpeg",
+        "subheading": "Navodaya Training"
+      },
+      {
+        "date": "19th Aug, 2018",
+        "details": "Our NSS family headed towards the village to light up hopes among the people of Amhara. The people were briefly introduced about the function of NSS and how it would help them in moving forward towards a bright tomorrow.",
+        "flink": "https://www.facebook.com/nssiitp/posts/172196436935134?__tn__=-R",
+        "id": "2",
+        "img_url": "images/villagemeet/1.jpg",
+        "subheading": "Village Meet"
+      }
+    ],
+    "gallery": {
+      "imagetypeheading": [
+        {
+          "datafilter": "*",
+          "name": "All Works"
+        },
+        {
+          "datafilter": ".upcoming",
+          "name": "Upcoming"
+        },
+        {
+          "datafilter": ".alumini",
+          "name": "Alumini Interaction"
+        },
+        {
+          "datafilter": ".blood",
+          "name": "Blood Donation"
+        },
+        {
+          "datafilter": ".plant",
+          "name": "Plantation"
+        },
+        {
+          "datafilter": "*",
+          "name": "Cloth Distribution"
+        },
+        {
+          "datafilter": ".atm",
+          "name": "Technical Skill & Teaching"
+        },
+        {
+          "datafilter": ".youth",
+          "name": "Youth Day"
+        },
+        {
+          "datafilter": ".ashraya",
+          "name": "Ashraya"
+        },
+        {
+          "datafilter": ".gandhi",
+          "name": "Gandhi Jayanti"
+        },
+        {
+          "datafilter": ".swachh",
+          "name": "Swachhta Pakhwada"
+        }
+      ],
+      "imageurl": [
+        {
+          "burl": "images/alumini/IMG_1.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_1.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_2.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_2.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_3.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_3.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_4.JPG",
+          "heading": ".alumini",
+          "surl": "images/alumini/reduced/IMG_4.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_5.JPG",
+          "heading": ".alumini",
+          "surl": "images/alumini/reduced/IMG_5.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_6.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_6.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_7.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_7.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_8.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_8.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_9.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_9.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_10.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_10.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_11.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_11.JPG"
+        },
+        {
+          "burl": "images/alumini/IMG_12.JPG",
+          "heading": "alumini",
+          "surl": "images/alumini/reduced/IMG_12.JPG"
+        },
+        {
+          "burl": "images/blood/item1.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item1.jpg"
+        },
+        {
+          "burl": "images/blood/item2.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item2.jpg"
+        },
+        {
+          "burl": "images/blood/item3.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item3.jpg"
+        },
+        {
+          "burl": "images/blood/item4.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item4.jpg"
+        },
+        {
+          "burl": "images/blood/item5.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item5.jpg"
+        },
+        {
+          "burl": "images/blood/item6.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item6.jpg"
+        },
+        {
+          "burl": "images/blood/item7.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item7.jpg"
+        },
+        {
+          "burl": "images/blood/item8.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item8.jpg"
+        },
+        {
+          "burl": "images/blood/item9.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item9.jpg"
+        },
+        {
+          "burl": "images/blood/item10.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item10.jpg"
+        },
+        {
+          "burl": "images/blood/item11.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item11.jpg"
+        },
+        {
+          "burl": "images/blood/item12.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item12.jpg"
+        },
+        {
+          "burl": "images/blood/item13.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item13.jpg"
+        },
+        {
+          "burl": "images/blood/item14.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item14.jpg"
+        },
+        {
+          "burl": "images/blood/item15.jpg",
+          "heading": "blood",
+          "surl": "images/blood/reduced/item15.jpg"
+        },
+        {
+          "burl": "images/plantation/img_1.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_1.jpg"
+        },
+        {
+          "burl": "images/plantation/img_2.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_2.jpg"
+        },
+        {
+          "burl": "images/plantation/img_3.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_3.jpg"
+        },
+        {
+          "burl": "images/plantation/img_4.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_4.jpg"
+        },
+        {
+          "burl": "images/plantation/img_5.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_5.jpg"
+        },
+        {
+          "burl": "images/plantation/img_6.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_6.jpg"
+        },
+        {
+          "burl": "images/plantation/img_7.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_7.jpg"
+        },
+        {
+          "burl": "images/plantation/img_8.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_8.jpg"
+        },
+        {
+          "burl": "images/plantation/img_9.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_9.jpg"
+        },
+        {
+          "burl": "images/plantation/img_10.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_10.jpg"
+        },
+        {
+          "burl": "images/plantation/img_18.jpg",
+          "heading": "plant",
+          "surl": "images/plantation/reduced/img_1.jpg"
+        }
+      ]
+    }
+  }
+}
