@@ -50,10 +50,10 @@ function getInputVal(id){
 function saveMessage(name,email,phone,thought){
     var  newThinkRef=ThinkRef.push();
     newThinkRef.set({
-        Name: name,
-        Email: email,
-        Phone: phone,
-        Thought: thought
+        name: name,
+        email: email,
+        phone: phone,
+        thought: thought
     });
 }
 }
@@ -112,10 +112,10 @@ function ThankFunc(){
     function saveMessage(name,email,phone,thought){
         var  newThankRef=ThankRef.push();
         newThankRef.set({
-            Name: name,
-            Email: email,
-            Phone: phone,
-            Thought: thought
+            name: name,
+            email: email,
+            phone: phone,
+            thought: thought
         });
     }
     }
