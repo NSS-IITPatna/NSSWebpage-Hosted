@@ -49,11 +49,11 @@ function getInputVal(id){
 function saveMessage(name, id_roll,email,phone,for_whom,address){
     var  newBloodRef=bloodRef.push();
     newBloodRef.set({
-        Name: name,
-        ID_Roll: id_roll,
-        Email: email,
-        Phone: phone,
-        BloodForWhom: for_whom,
-        Address: address
+        name: name,
+        id_roll: id_roll,
+        email: email,
+        phone: phone,
+        blood_for_whom: for_whom,
+        address: address
     });
 }
