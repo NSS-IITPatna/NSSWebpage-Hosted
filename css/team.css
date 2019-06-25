@@ -1,99 +1,120 @@
 /* team */
-.team {
-    padding: 130px 0;
+.col-centered {
+    display:inline-block;
+    float:none;
+    margin-right:-4px;
+    padding: 10px;
+    text-align: center;
 }
+.team h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+    padding: 0;
 
+}
+.team h1 span {
+    color: #ff9100;
+}
 .team h2 {
-    font-size: 30px;
+    text-align: center;
+    font-size: 25px;
     font-weight: 700;
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
 
 }
-
 .team h2 span {
-    color: #ff9100;
+    color: #07d474;
 }
-
-.team p {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.7;
-    color: #999999;
-    margin: 20px 0 60px;
-    padding: 0;
-}
-
-.team .box {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all .5s ease-in-out;
-}
-
-.team .box .image {
-    position: relative;
-    height: 100%;
-}
-
-.team .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #ff9100 1%,#56dc1 100%);
-    top: 0;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-    z-index: 15;
-}
-
-.team .box .image .social-icons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #ffffff;
-    z-index: 20;
-    text-decoration: none;
-    opacity: 0;
-    margin-top: 100px;
-    padding: 8px 15px;
-    background: #ffffff;
-    border-radius: 35px;
-    transition: all 0.5s ease-in-out;
-}
-
-.team .box .image .social-icons i {
-    font-size: 18px;
-    padding: 0 7px;
-    color: #ff9100;
-}
-
-.team .box:hover .overlay {
-    opacity: 0.85;
-}
-
-.team .box:hover .social-icons {
-    margin-top: 0;
-    opacity: 1;
-}
-
-.team .box h3 {
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.team .box h4 {
-    margin: 0;
-    padding: 0;
-    font-size: 13px;
-    color: #999999;
-    font-weight: 400;
-    margin-top: 5px;
-    padding-bottom: 25px;
-}
-
-.team .box:hover {
-    transform: translateY(-15px);
-}
+.box{
+    overflow:hidden;
+      background: #0ebeff;
+      position: relative;
+      -webkit-transition: all .35s ease;
+      transition: all .35s ease
+  }
+  .box:after,
+  .box:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #ffc107;
+      border-left: 3px solid #fff;
+      border-right: 3px solid #fff;
+      opacity: .9;
+      z-index: 1;
+      -webkit-transition: all .35s ease;
+      transition: all .35s ease
+  }
+  .box img {
+      height: auto;
+      width: 100%
+  }
+  .box:before {
+      -webkit-transform: skew(45deg) translateX(-155%);
+      transform: skew(45deg) translateX(-155%)
+  }
+  .box:hover:before {
+      -webkit-transform: skew(45deg) translateX(-55%);
+      transform: skew(45deg) translateX(-55%)
+  }
+  .box:after {
+      -webkit-transform: skew(45deg) translateX(155%);
+      transform: skew(45deg) translateX(155%)
+  }
+  .box:hover:after {
+      -webkit-transform: skew(45deg) translateX(55%);
+      transform: skew(45deg) translateX(55%)
+  }
+  .box img {
+      -webkit-transition: all .35s ease;
+      transition: all .35s ease
+  }
+  .box:hover img {
+      opacity: .5
+  }
+  .box .box-content {
+      position: absolute;
+      top: 50%;
+      left: 50%; 	
+      opacity: 0;
+      z-index: 2;
+      -webkit-transform: translate(-50%, -50%) scale(.5);
+      transform: translate(-50%, -50%) scale(.5);
+      -webkit-transition: all .35s ease;
+      transition: all .35s ease
+  }
+  
+  .box:hover .box-content {
+      -webkit-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1
+  }
+  .box .post,
+  .box .title {
+    text-align:center;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background: #3c3c3c;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 15px 20px;
+      margin: 0
+  }
+  .box .post{
+      text-transform: capitalize
+  }
+  .box .post {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 5px 10px;
+      margin-top: 15px
+  }
