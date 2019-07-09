@@ -888,7 +888,7 @@ input.search-form:hover {
 }
 
 
-/***Added By Devyani***/
+/***Cells***/
 .item-container{
   height : 360px;
   width: 260px;
@@ -901,7 +901,7 @@ input.search-form:hover {
 }
 .item-container p{
 padding-top : 20px;
-padding-botton: 20px;
+padding-bottom: 20px;
 color: #D3D3D3;
 opacity:0.3;
 
