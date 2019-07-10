@@ -615,7 +615,8 @@ input.search-form:hover {
 **************************/
 
 #main-slider {
- min-height: calc(100vh - 87px);
+ height: calc(100vh - 87px);
+ margin-top: 87px;
  position: relative;
 }
 
@@ -676,7 +677,7 @@ input.search-form:hover {
     position: absolute;
     width: 100%;
     display: block !important;
-     min-height: calc(100vh - 87px);
+    height: calc(100vh - 87px);
     -webkit-transition: opacity ease-in-out 500ms;
     transition: opacity ease-in-out 500ms;
     display: -webkit-box !important;
