@@ -421,7 +421,6 @@ section h3.section-subheading {
 /*************************
 *******Header******
 **************************/
-
 #header .search {
     display: inline-block;
 }
@@ -616,7 +615,8 @@ input.search-form:hover {
 **************************/
 
 #main-slider {
-    position: relative;
+ min-height: calc(100vh - 87px);
+ position: relative;
 }
 
 .no-margin {
@@ -676,7 +676,7 @@ input.search-form:hover {
     position: absolute;
     width: 100%;
     display: block !important;
-    height: 730px;
+     min-height: calc(100vh - 87px);
     -webkit-transition: opacity ease-in-out 500ms;
     transition: opacity ease-in-out 500ms;
     display: -webkit-box !important;
@@ -895,24 +895,23 @@ input.search-form:hover {
   position: relative;
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0,0.4),rgba(0, 0, 0,0.4));
-  transition: all 2s ease;
+  transition: all 1s ease;
     outline: 5px solid white;
    margin : 50px;
 }
 .item-container p{
 padding-top : 20px;
 padding-bottom: 20px;
-color: #D3D3D3;
-opacity:0.3;
+color: white;
+
 
 }
 .item-container:hover p{
-color: white;
-opacity:1;
+color: rgb(0,175,240);
 }
 
 .item-img{
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .item-img:hover{
    transform: scale(1.0);
@@ -927,7 +926,7 @@ opacity:1;
   color: #d3325f;
   border-top: 3px solid #d3325f;
   border-bottom: 3px solid #d3325f;
-  transition: all 2s ease;
+  transition: all 1s ease;
   opacity: 0;
   font-size: 2rem;
 }
