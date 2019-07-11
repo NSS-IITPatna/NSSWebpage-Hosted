@@ -60,7 +60,7 @@
 <!--/head-->
 
 <body class="homepage">
-    <header id="header">
+    <header id="header" class="sticky">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -114,7 +114,7 @@
       <marquee style="color:white;font-size:18px;"scrollamount="10">Now you can send feedback or suggest ideas anonymously.</marquee>
    
       <div class="thinking" style="background:#fff;;box-shadow: 0 1px 1px #000;
-        border-radius:20px;margin: 0 auto;margin-bottom: 50px;margin-top:50px">
+        border-radius:20px;margin: 0 auto;margin-bottom: 50px;margin-top:100px">
         <div class="row" style="padding:3px;padding-bottom:5px;box-shadow:0 1px 1px #999;width:100%;margin:0 auto"><br />
           <font style="font-size:30px;font-family:Lato;letter-spacing:10px; color: #009688;"><center>
           <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>THINK-THANK</center></font>
@@ -179,29 +179,17 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-     <script src="js/think_thank_submit.js"></script>
-    <!-- Defining function for fixed header -->
-        <script>
-        window.onscroll = function() {myFunction()};
-        var header = document.getElementById("header");
-        var sticky = header.offsetTop;
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        </script>
+    <script src="js/think_thank_submit.js"></script>
 
-        <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 
 </html>
