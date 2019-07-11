@@ -59,7 +59,7 @@
 
 <body style="background:url(images/mainNSS/background1.jpg);  ">
 
-  <header id="header">
+  <header id="header" class="sticky">
       <nav class="navbar navbar-inverse" role="banner">
           <div class="container">
               <div class="navbar-header">
@@ -112,7 +112,7 @@
   </header>
   <!--/header-->
 
-    <div class="page-title" >
+    <div class="page-title" style="margin-top: 87px">
         <h1 style="color:black" >Gallery</h1>
     </div>
 
@@ -1702,25 +1702,7 @@
     </section>
     <!--/#portfolio-item-->
 
-          <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
-
-     <script>
-        window.onscroll = function() {myFunction()};
-        var header = document.getElementById("header");
-        var sticky = header.offsetTop;
-        function myFunction() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        
-        </script>
+    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
 
 
     <script src="js/jquery.js"></script>
