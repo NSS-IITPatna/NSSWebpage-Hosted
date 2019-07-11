@@ -59,7 +59,7 @@
 </head>
 <!--/head-->
 
-<body class="homepage" style="background:url('images/mainNSS/thinkthank.jpg');background-repeat: no-repeat;background-size: 100% 100%">
+<body class="homepage">
     <header id="header">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -107,51 +107,53 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
-          <marquee style="color:white;font-size=:18px;"scrollamount="10">Now you can send feedback or suggest ideas anonymously.</marquee>
-    </header>  
+       </header>  
     <!--/header-->
-
-    <div class="container" style="margin-top:7px; padding-bottom: 20px;">
-	  	<div class="thinking" style="background:#fff;box-shadow: 0 1px 1px #000;border-radius:5px;margin-left:auto;margin-right:auto;">
-	  		<div class="row" style="padding:3px;box-shadow:0 1px 1px #999"><br /><font style="font-size:30px;font-family:Lato;letter-spacing:10px; color: #009688; "><center><i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>THINK-THANK</center></font></div>
-            <form action="#" name="loginform" method="post" accept-charset="utf-8" id="ThinkThankForm">
-		  		<div class="form-horizontal" style="padding:5px;padding-left:30px;padding-right:30px;">
-	  		<br><br>
+   
+    <div class="container" style="padding-bottom: 20px;background:url('images/mainNSS/thinkthank.jpg');background-repeat: no-repeat;background-size: 100% 100%;width:100%;height:100%">
+      <marquee style="color:white;font-size:18px;"scrollamount="10">Now you can send feedback or suggest ideas anonymously.</marquee>
+   
+      <div class="thinking" style="background:#fff;;box-shadow: 0 1px 1px #000;
+        border-radius:20px;margin: 0 auto;margin-bottom: 50px;margin-top:50px">
+        <div class="row" style="padding:3px;padding-bottom:5px;box-shadow:0 1px 1px #999;width:100%;margin:0 auto"><br />
+          <font style="font-size:30px;font-family:Lato;letter-spacing:10px; color: #009688;"><center>
+          <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>THINK-THANK</center></font>
+        </div>
+          <form action="#" name="loginform" method="post" style="border:none;" accept-charset="utf-8" id="ThinkThankForm">
+		  		<div class="form-horizontal" style="padding : 50px;">
+	  		    <div class="row">
+              <h4 align="left" style="color: #009688;"><b>Name</b></h4>
+              <div class="row">
+                <input type="text" name="name" class="form-control" style="border-radius: 20px" placeholder="Enter your Name" id="TName">
+              </div>
+              <br/>
+            </div>
             <div class="row">
-				    	<h4 align="left"><b>Name</b></h4>
-				    <div class="row">
-				      	<input type="text" name="name" class="form-control"  placeholder="Enter your Name" id="TName">
-				     </div>
-					<br/>
-
+				    	<h4 align="left" style="color: #009688;"><b>Email</b></h4>
+				      <div class="row">
+				      	<input type="email" name="email" class="form-control" style="border-radius: 20px" placeholder="Enter your Email" id="TEmail">
+				      </div>
+					    <br/>
 				    </div>
-
-				  	<div class="row">
-				    	<h4 align="left"><b>Email</b></h4>
-				    <div class="row">
-				      	<input type="email" name="email" class="form-control"  placeholder="Enter your Email" id="TEmail">
-				     </div>
-					<br />
-				    </div>
             <div class="row">
-              <h4 align="left"><b>Phone Number</b></h4>
-            <div class="row">
-                <input type="phone" name="phone" class="form-control"  placeholder="Enter your Phone Number.." id="TPhone">
-             </div>
-          <br />
-
+              <h4 align="left" style="color: #009688;"><b>Phone Number</b></h4>
+              <div class="row">
+                <input type="phone" name="phone" class="form-control" style="border-radius: 20px" placeholder="Enter your Phone Number.." 
+                id="TPhone">
+              </div>
+              <br />
             </div>
 				    <div class="row">
-						<h4 align="left"><b>Thought</b><span style="color:#F70303;">*</span></h4>
-					</div>
-					<div class="row">
-						<textarea class="form-control" style="resize: none;width:100%" rows="5" placeholder="Express your thought here..." name="idea" id="TThought" required></textarea>
-					</div>
-					<br><br>
+						  <h4 align="left"><b style="color: #009688;">Thought</b><span style="color:#F70303;">*</span></h4>
+					  </div>
+					  <div class="row">
+						   <textarea class="form-control" style="resize: none;width:100%;border-radius:20px" rows="5" placeholder="Express your thought here..." name="idea" id="TThought" required></textarea>
+					  </div>
+					  <br><br>
            <div class="alert">Your idea/feedback has been sent to NSS IIT Patna Team.</div>
 					<div class="row">
-						<button align="right" class="btn btn-default pull-right" type="submit" onclick="ThankFunc();return(false);"><strong>THANK</strong></button>
-            <button align="right" class="btn btn-default pull-right" id="submit" type="submit" onclick="ThinkFunc();return(false);" ><strong>THINK</strong></button>
+						<button align="right" class="btn btn-default pull-right" style="background: #009688;margin: 10px" type="submit" onclick="ThankFunc();return(false);"><strong>THANK</strong></button>
+            <button align="right" class="btn btn-default pull-right" style="background: #009688;margin: 10px" id="submit" type="submit" onclick="ThinkFunc();return(false);" ><strong>THINK</strong></button>
 					</div>
 
           <div class="row" style="margin-top:1px;">
