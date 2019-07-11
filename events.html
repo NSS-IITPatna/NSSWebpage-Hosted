@@ -80,7 +80,7 @@
             overflow: visible;
         }
     </style>
-    <header id="header">
+    <header id="header" class="sticky">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -132,10 +132,8 @@
         </div>  
     </header>
     <!--/header-->
-    <div class="page-title" style=" background-image: url(images/mainNSS/plate2.jpg);background-repeat: no-repeat;background-size: 100% 100%;height:200px;">
-          <h2 style="font-size:9em; color:#000000; text-align:center;" class="blinking">EVENTS</h2>
-
-
+    <div class="page-title" style=" background-image: url(images/mainNSS/plate2.jpg);background-repeat: no-repeat;background-size: 100% 100%;height:200px; margin-top: 87px">
+      <h2 style="font-size:9em; color:#000000; text-align:center;" class="blinking">EVENTS</h2>
     </div>
     <section id="pricing" style="background-image:url(images/mainNSS/plate5.jpg); color:white">
       <div class="container">
@@ -159,33 +157,15 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
 
-    <!-- Defining function for fixed header -->
-          <script>
-        window.onscroll = function() {myFunction()};
-        var header = document.getElementById("header");
-        var sticky = header.offsetTop;
-        function myFunction() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        
-        </script>
 
-        <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 
 <!--        Importing jqueries and all those stuffs                       -->
