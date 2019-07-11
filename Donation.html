@@ -47,7 +47,7 @@
 
 <body>
 
-  <header id="header" class="sticky">
+  <header id="header">
       <nav class="navbar navbar-inverse" role="banner">
           <div class="container">
               <div class="navbar-header">
@@ -98,7 +98,7 @@
   </header>
 
   <div class="page-title">
-        <h2 style="font-size:8em; color:#000000; text-align:center;background-color:#F3F0EE; margin-top: 87px" >Donate for the Poor</h2>
+        <h2 style="font-size:8em; color:#000000; text-align:center;background-color:#F3F0EE" >Donate for the Poor</h2>
 
 
     <!--/#blog-->
@@ -143,7 +143,22 @@
 
 
     <!--/#bottom-->
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+        <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+
+
+    <script>
+    //Code to make the navigation bar sticky
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
 
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];

@@ -46,7 +46,7 @@
 
 <body>
 
-  <header id="header" class="sticky">
+  <header id="header">
       <nav class="navbar navbar-inverse" role="banner">
           <div class="container">
               <div class="navbar-header">
@@ -100,7 +100,7 @@
   </header>
 
   <div class="page-title">
-        <h2 style="font-size:8em; color:#000000; text-align:center; margin-top: 87px" >About Us</h2>
+        <h2 style="font-size:8em; color:#000000; text-align:center;" >About Us</h2>
 
     <section id="blog">
 
@@ -169,7 +169,24 @@
     </section>
     <!--/#bottom-->
 
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+        <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+      <script>
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        
+        </script>
 
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
