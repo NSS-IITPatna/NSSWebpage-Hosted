@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.owl-carousel .item{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.owl-carousel .item img{
+    border-radius: 80%;
+}
+            
