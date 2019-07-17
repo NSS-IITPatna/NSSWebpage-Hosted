@@ -81,29 +81,37 @@
                                   <div class="col-sm-4 col-sm-offset-1">
                                      <div class="picture-container">
                                           <div class="picture">
-                                              <img src="assets/img/technical1.jpg" class="picture-src" id="wizardPicturePreview" title=""/>
+                                              <img src="../images/mainNSS/logo.jpeg" class="picture-src" id="wizardPicturePreview" title=""/>
                                           </div>
 
                                       </div>
                                   </div>
                                   <div class="col-sm-6">
                                       <div class="form-group">
-                                        <h5 id="sname">Name: Amartya Mondal</h5>
+                                        <h5 id="sname">Name: <?php echo $_SESSION['name'] ?></h5>
                                       </div>
                                       <div class="form-group">
-                                        <h5 id="srollno">Roll No: 1801ME07</h5>
+                                        <h5 id="srollno">Roll No: <?php echo $_SESSION['rollno']?></h5>
                                       </div>
 																			<div class="form-group">
-                                        <h5 id="cell">Cell: <b>Technical Skill</b></h5>
+                                        <h5 id="cell">Unit: <b><?php echo $_SESSION['unit'] ?></b></h5>
                                       </div>
                                   </div>
 
                                     <div class="col-sm-6">
                                             <div class="form-group">
-                                            <h4><b>HOURS COMPLETED</b></h4>	<h6 id="hours">120</h6>
+                                            <h4><b>HOURS COMPLETED</b></h4>	<h6 id="hours"><?php echo $_SESSION['total'] ?></h6>
                                             </div>
                                             <div class="form-group">
-                                                <h4><b>HOURS LEFT</b></h4>	<h6 id="hours">00</h6>
+                                                <h4><b>HOURS LEFT</b></h4>	<h6 id="hours"><?php 
+                                                    $hour_done=(float)$_SESSION['total'];
+                                                    $hour_left=80.00-$hour_done;
+                                                    if($hour_left>0){
+                                                        echo $hour_left;
+                                                    }else{
+                                                        echo "You have completed your 80 hours quota.";
+                                                    }
+                                                ?></h6>
                                             </div>
                                     </div>
 
@@ -115,7 +123,7 @@
                         <div class="wizard-footer height-wizard">
                             <div class="pull-right">
                                 <input type='button' class='btn btn-next btn-fill btn-warning btn-wd btn-sm' name='next' value='Next' />
-                              <a href="../login.html">  <input type='button' class='btn btn-finish btn-fill btn-warning btn-wd btn-sm' name='finish' value='Log Out' /></a>
+                              <a href="logout.php">  <input type='button' class='btn btn-finish btn-fill btn-warning btn-wd btn-sm' name='finish' value='Log Out' /></a>
 
                             </div>
 
@@ -138,69 +146,30 @@
                 <table class="table table-striped table-bordered table-hover table-responsive">
                     <thead>
                         <tr style="font-size:25px;background-color: orange;">
-                            <th >Event Id</th>
-                            <th >Event name</th>
-                            <th >Event Venue</th>
-                            <th >Event date</th>
-                            <th >Event Type</th>
+                            <th >S.No</th>
+                            <th >Activity</th>
+                            <th >Date</th>
                             <th >Hours</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr style="font-size:20px;">
-                            <td>1</td>
-                            <td>abcd</td>
-                            <td>IIt patna</td>
-                            <td>5 July 2019</td>
-                            <td>grndevent</td>
-                            <td>12</td>
-                            
-                        </tr>
-                        <tr style="font-size:20px;">
-                            <td>1</td>
-                            <td>abcd</td>
-                            <td>IIt patna</td>
-                            <td>5 July 2019</td>
-                            <td>grndevent</td>
-                            <td>12</td>
-                            
-                        </tr>
-                        <tr style="font-size:20px;">
-                            <td>1</td>
-                            <td>abcd</td>
-                            <td>IIt patna</td>
-                            <td>5 July 2019</td>
-                            <td>grndevent</td>
-                            <td>12</td>
-                        
-                        </tr>
-                        <tr style="font-size:20px;">
-                            <td>1</td>
-                            <td>abcd</td>
-                            <td>IIt patna</td>
-                            <td>5 July 2019</td>
-                            <td>grndevent</td>
-                            <td>12</td>
-                        
-                        </tr>
-                        <tr style="font-size:20px;">
-                            <td>1</td>
-                            <td>abcd</td>
-                            <td>IIt patna</td>
-                            <td>5 July 2019</td>
-                            <td>grndevent</td>
-                            <td>12</td>
-                            
-                        </tr>
-                        <tr style="font-size:20px;">
-                            <td>1</td>
-                            <td>abcd</td>
-                            <td>IIt patna</td>
-                            <td>5 July 2019</td>
-                            <td>grndevent</td>
-                            <td>12</td>
-                        
-                        </tr>
+                    <?php
+                    $attendance=(array)json_decode($_SESSION["attendance"]);
+                    $attendance_array=$attendance["attendance"];
+                    $id=1;
+
+                    foreach($attendance_array as $obj){
+                        $item=(array)$obj;
+                        echo "<tr style='font-size:20px;'>
+                                <td>".$id."</td>
+                                <td>".$item["activity"]."</td>
+                                <td>".$item["date"]."</td>
+                                <td>".$item["hour"]."</td>
+                            </tr>";
+                            $id+=1;
+                    }
+                    ?>
+
                     </tbody>
                 </table>
             </div>
