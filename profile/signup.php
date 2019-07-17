@@ -55,14 +55,13 @@
                             <li class="nav-item"><a class="nav-link" href="../portfolio.html">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="../think_thank.html">Think Thank</a></li>
                             <li class="nav-item"><a class="nav-link" href="../login.html">Check Hours</a></li>
-                            
                         </ul>
                     </div>
                 </div>
             </nav>
             <!--End of navbar-->
             <!--Start of the form-->
-                <section style="margin-top: 140px; height: 100vh;">
+                <section style="margin-top: 140px; height: 80vh;">
                 <?php validate_user_registration() ?>
                 <div class="container main-bg" style="z-index: 10 !important">
                     <div>
@@ -98,7 +97,7 @@
                             </div>
                             <button type="submit" class="btn submit" name="signup" id="signup">SignUp</button>
                             <div>
-                                <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Already have an Account?<strong><a href="login.html" style="margin-left:5px; margin-right:5px;font-size: 20px;">Login</a></strong>here</p>
+                                <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Already have an Account?<strong><a href="login.php" style="margin-left:5px; margin-right:5px;font-size: 20px;">Login</a></strong>here</p>
                             </div>
                         </form>
 
