@@ -188,11 +188,6 @@ function validate_login(){
 					}
 				}
 				$response = array();
-				$response['name']=$sheetData[$rowNo][0];
-				$response['rollno']=$sheetData[$rowNo][1];
-				$response['unit']=$unit;
-				$response['phone']=$sheetData[$rowNo][2];
-				$response['total']=$total_hour;
 				$response['attendance']=$attendance;
 
 				$_SESSION['rollno']=$rollno;
