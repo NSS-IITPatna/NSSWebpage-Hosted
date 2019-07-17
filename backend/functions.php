@@ -100,14 +100,14 @@ function validate_user_registration(){
 		if(strlen($rollno)!=8){
 			$errors[]="Enter valid rollno.";
 		}
-		if(strpos($email,"iitp.ac.in")===false){
-			$errors[]="PLease enter your official IITP email address.";
-		}
 		if(rollno_exists($rollno)){
 			$errors[]="The rollno you are trying to register has already been registered.";
 		}
 		if(email_exists($email)){
 			$errors[]="The email you are trying to register has already been registered.";
+		}
+		if(strpos($email,"iitp.ac.in")===false){
+			$errors[]="Please enter your official IITP email address.";
 		}
 
 		if(!empty($errors)){
@@ -128,7 +128,7 @@ function validate_user_registration(){
 			$header="From: nss@iitp.ac.in";
 
 			if(send_email($email,$subject,$msg,$header)){
-				$sql = "INSERT INTO users(name, phone, email, password, unit, rollno, active) VALUES($name,$phone,$email,$password,$unit,$rollno,0)";
+				$sql = "INSERT INTO users(name, phone, email, password, unit, rollno, active) VALUES('$name','$phone','$email','$password','$unit','$rollno',0)";
 				$result=query($sql);
 				confirm($result);
 				set_message("<p class='bg-success text-center'>$name you have successfully registered your account. You can check your attendance after your account is activated by the core team.</p>");
