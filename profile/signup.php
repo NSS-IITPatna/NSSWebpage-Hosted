@@ -62,7 +62,7 @@
             </nav>
             <!--End of navbar-->
             <!--Start of the form-->
-                <section style="margin-top: 140px;">
+                <section style="margin-top: 140px; height: 100vh;">
                 <?php validate_user_registration() ?>
                 <div class="container main-bg" style="z-index: 10 !important">
                     <div>
@@ -108,8 +108,8 @@
                 </section>
                 <!--End of Form-->
                 <!--Footer-->
-	<div style="background:lightgrey">		
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height:100% !important;"></iframe>
+	
+    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height:200px;"></iframe>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -129,7 +129,7 @@
     js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-  </div>
+
 </body>
 
 </html>
