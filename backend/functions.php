@@ -215,3 +215,36 @@ function logged_in(){
 		return false;
 	}
 }
+
+function blood_request(){
+	if($_SERVER['REQUEST_METHOD']=="POST"){
+		echo "Inside";
+		$name=escape(clean($_POST["BName"]));
+		$roll=escape(clean($_POST["BRoll"]));
+		$email=escape(clean($_POST["BEmail"]));
+		$phone=escape(clean($_POST["BPhone"]));
+		$for_whom=escape(clean($_POST["BForWhom"]));
+		$address=escape(clean($_POST["BAddress"]));
+
+		$subject="Blood Request from NSS";
+		$msg="
+			<h3>$name</h3> <p> has requested for blood. </p>
+
+			<p>Details: </p>
+			<br>
+			<h5>Name : $name</h5>
+			<h5>Roll/Employee ID : $roll</h5>
+			<h5>Email : $email</h5>
+			<h5>Phone : $phone</h5>
+			<h5>For Whom : $for_whom</h5>
+			<h5>Address : $address</h5>
+		";
+		$header="From: nss@iitp.ac.in";
+		$send_to ="hayyoulistentome@gmail.com";
+
+		if (send_email($send_to,$subject,$msg,$header)){
+			echo "<h3></h3>Requested Blood successfully</h3>";
+		}
+	}
+	
+}

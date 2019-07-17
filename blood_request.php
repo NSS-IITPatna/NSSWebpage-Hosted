@@ -1,3 +1,4 @@
+<?php include("backend/init.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -98,8 +99,6 @@
                       <li><a href="portfolio.html">Gallery</a></li>
                       <li><a href="think_thank.html">Think-Thank</a></li>
                       <li><a href="login.html">Check-Hours</a></li>
-                      
-
                   </ul>
               </div>
           </div>
@@ -117,44 +116,46 @@
 <!--Form start here-->
     <div class="container-contact100">
       <div class="wrap-contact100">
-        <form class="contact100-form validate-form" id="bloodRequestForm">
+      
+        <form class="contact100-form validate-form" id="bloodRequestForm" method="post">
+        <?php blood_request() ?>
           <span class="contact100-form-title">
             Request Blood
           </span>
 
           <div class="wrap-input100 validate-input" data-validate="Name is required">
             <span class="label-input100">Your Name</span>
-            <input class="input100" type="text" name="name" placeholder="Enter your name here..." id="BName" required>
+            <input class="input100" type="text" name="BName" placeholder="Enter your name here..." id="BName" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" >
             <span class="label-input100">Roll No/Employee ID if from IIT Patna</span>
-            <input class="input100" type="text" name="ID" font-size="12px" placeholder="Enter your Roll No/Employee ID here..." id="BRoll" required>
+            <input class="input100" type="text" name="BRoll" font-size="12px" placeholder="Enter your Roll No/Employee ID here..." id="BRoll" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
             <span class="label-input100">Email</span>
-            <input class="input100" type="text" name="email" placeholder="Enter your email id here..." id="BEmail" required>
+            <input class="input100" type="email" name="BEmail" placeholder="Enter your email id here..." id="BEmail" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" pattern="[6-9]{1}[0-9]{9}" data-validate="Valid phone is required: 3456789121">
             <span class="label-input100">Phone Number</span>
-            <input class="input100" type="text" name="phone" placeholder="Enter your phone number here..." id="BPhone" required>
+            <input class="input100" type="text" name="BPhone" placeholder="Enter your phone number here..." id="BPhone" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" >
             <span class="label-input100">For whom do you want Blood Doner card? </span>
-            <input class="input100" type="text" name="blood_doner_card" font-size="12px" placeholder="Enter for whom you want to take blood doner card..." id="BForWhom" required>
+            <input class="input100" type="text" name="BForWhom" font-size="12px" placeholder="Enter for whom you want to take blood doner card..." id="BForWhom" required>
             <span class="focus-input100"></span>
           </div>
 
           <div class="wrap-input100 validate-input" data-validate = "Message is required">
             <span class="label-input100">Address</span>
-            <textarea class="input100" name="message" placeholder="Write your address here..." id="BAddress" required></textarea>
+            <textarea class="input100" name="BAddress" placeholder="Write your address here..." id="BAddress" required></textarea>
             <span class="focus-input100"></span>
           </div>
           <div class="alert">Your request has been sent to NSS IIT Patna Team.</div>
@@ -162,7 +163,7 @@
           <div class="container-contact100-form-btn">
             <div class="wrap-contact100-form-btn">
               <div class="contact100-form-bgbtn"></div>
-              <button class="contact100-form-btn">
+              <button class="contact100-form-btn" type="submit" name="submit_request">
                 <span>
                   Submit
                   <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
@@ -213,14 +214,10 @@
     <script src="js/jquery.mobile.custom.min.js"></script>
 
   <!-- Resource jQuery -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-    <script src="js/blood_submit.js"></script>
+  
     </body>
 
     </html>
