@@ -1,7 +1,7 @@
 <?php
 
 include("utility.php");
-include("attendance.php");
+// include("attendance.php");
 require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
@@ -160,48 +160,49 @@ function validate_login(){
 			if(row_count($result1)){
 				$row = fetch_array($result1);
 				$unit = $row['unit'];
-				$response = attendance($rollno,$unit);
-				// $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
-            		// $spreadsheet = $reader->load("./attendance.xlsx");
-				// $sheetData = $spreadsheet->getSheetByName($unit)->toArray();
+				$reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+            		$spreadsheet = $reader->load("../attendance.xlsx");
+				$sheetData = $spreadsheet->getSheetByName($unit)->toArray();
 
-				// $arrayName=$sheetData;
-				// $rowSize = count( $arrayName );
-				// $columnSize = max( array_map('count', $arrayName) );
+				$arrayName=$sheetData;
+				$rowSize = count( $arrayName );
+				$columnSize = max( array_map('count', $arrayName) );
 
-				// for($x=3; $x<=$rowSize; $x++){
-				// 	if(strtolower($sheetData[$x][1])==strtolower($rollno)){
-				// 		$rowNo = $x;
-				// 		break;
-				// 	}
-				// }
-				// // echo $rowNo;
-				// $total_hour = $sheetData[$rowNo][2];
-				// $attendance = array();
+				for($x=3; $x<=$rowSize; $x++){
+					if(strtolower($sheetData[$x][1])==strtolower($rollno)){
+						$rowNo = $x;
+						break;
+					}
+				}
+				// echo $rowNo;
+				$total_hour = $sheetData[$rowNo][2];
+				$attendance = array();
 
-				// for($y=4; $y<=$columnSize; $y++){
-				// 	if(!empty($sheetData[$rowNo][$y])){
-				// 		$subAttendance=array();
-				// 		$subAttendance['hour']=$sheetData[$rowNo][$y];
-				// 		$subAttendance['date'] = $sheetData[0][$y];
-				// 		$subAttendance['activity'] = $sheetData[1][$y];
-				// 		$attendance[]=$subAttendance;
-				// 	}
-				// }
-				// $response = array();
-				// $response['name']=$sheetData[$rowNo][0];
-				// $response['rollno']=$sheetData[$rowNo][1];
-				// $response['unit']=$unit;
-				// $response['phone']=$sheetData[$rowNo][2];
-				// $response['total']=$total_hour;
-				// $response['attendance']=$attendance;
+				for($y=4; $y<=$columnSize; $y++){
+					if(!empty($sheetData[$rowNo][$y])){
+						$subAttendance=array();
+						$subAttendance['hour']=$sheetData[$rowNo][$y];
+						$subAttendance['date'] = $sheetData[0][$y];
+						$subAttendance['activity'] = $sheetData[1][$y];
+						$attendance[]=$subAttendance;
+					}
+				}
+				$response = array();
+				$response['name']=$sheetData[$rowNo][0];
+				$response['rollno']=$sheetData[$rowNo][1];
+				$response['unit']=$unit;
+				$response['phone']=$sheetData[$rowNo][2];
+				$response['total']=$total_hour;
+				$response['attendance']=$attendance;
 
 				$_SESSION['rollno']=$rollno;
-				$_SESSION['attendance']=$response;
+				$_SESSION['name']=$sheetData[$rowNo][0];
+				$_SESSION['unit']=$unit;
+				$_SESSION['phone']=$sheetData[$rowNo][2];
+				$_SESSION['total_hour']=$total_hour;
+				$_SESSION['attendance']=json_encode($response);
 
 				redirect("profile.php");
-
-
 			}else{
 				echo validation_errors("Your account has not yet been activated by the core team. Please contact the core team to activate your account.");
 			}

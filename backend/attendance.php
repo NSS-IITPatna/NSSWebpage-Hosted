@@ -3,10 +3,12 @@
       use PhpOffice\PhpSpreadsheet\Spreadsheet;
       use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
-      function attendance($rollno,$unit){
+      //function attendance($rollno,$unit){
+            $rollno="1801cs25";
+            $unit="Teaching";
 
             $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
-            $spreadsheet = $reader->load("attendance.xlsx");
+            $spreadsheet = $reader->load("../backend/attendance.xlsx");
             $sheetData = $spreadsheet->getSheetByName($unit)->toArray();
 
             $arrayName=$sheetData;
@@ -39,6 +41,6 @@
             $response['phone']=$sheetData[$rowNo][2];
             $response['total']=$total_hour;
             $response['attendance']=$attendance;
-
+            echo (json_encode($response));
             return json_encode($response);
-      }
+     // }
