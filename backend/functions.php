@@ -34,10 +34,10 @@ function display_message(){
 //Function to display validation error
 function validation_errors($error_message){
 $error = <<<DELIMITER
-<div class="alert alert-warning alert-dismissible" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>
-			</button><strong>Warning!</strong> $$error_message
-			</div>
+  <div class="alert alert-warning alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Warning!</strong> $error_message
+  </div>
 DELIMITER;
 return $error;
 }

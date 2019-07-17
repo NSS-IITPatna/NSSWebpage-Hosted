@@ -17,7 +17,7 @@
             </head>
     <body style="z-index: 1 !important;background-image: url('assets/img/profilebg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
          <!--Navbar--> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index:11">
                 <div class="bg"></div>
                 <div class="container">
                     <a class="navbar-brand" href="#"><img src="images/nss.png" alt="logo">NSS IIT Patna</a>
@@ -110,13 +110,8 @@
                 <!--Footer-->
 	
     <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height:200px;"></iframe>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
     <script src="js/think_thank_submit.js"></script>
 
@@ -131,7 +126,4 @@
   }(document, 'script', 'facebook-jssdk'));</script>
 
 </body>
-
 </html>
-
-        
