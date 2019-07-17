@@ -178,7 +178,7 @@ function validate_login(){
 				$total_hour = $sheetData[$rowNo][2];
 				$attendance = array();
 
-				for($y=4; $y<=$columnSize; $y++){
+				for($y=$columnSize; $y>=4; $y--){
 					if(!empty($sheetData[$rowNo][$y])){
 						$subAttendance=array();
 						$subAttendance['hour']=$sheetData[$rowNo][$y];
