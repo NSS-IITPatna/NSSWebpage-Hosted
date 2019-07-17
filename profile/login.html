@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css" href="team.css">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body style="background-image: url('assets/img/profilebg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;height: 100%;">
+    <body style="background-image: url('assets/img/profilebg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;height: 100vh;">
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="bg"></div>
@@ -79,8 +79,8 @@
                 </section>
             <!--End of form-->
             <!--Footer-->
-			
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="background:lightgrey;width: 100%;height: 100% !important;"></iframe>
+    <div style="background:lightgrey">	
+    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height: 200px;"></iframe>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -100,7 +100,7 @@
     js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-
+</div>
 </body>
 
 </html>
