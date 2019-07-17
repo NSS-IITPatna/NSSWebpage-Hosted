@@ -5,6 +5,8 @@ include("utility.php");
 require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use Kreait\Firebase\Factory;
+use Kreait\Firebase\ServiceAccount;
 
 /*******************Useful Functions*****************/
 
@@ -217,21 +219,19 @@ function logged_in(){
 }
 
 function blood_request(){
-	if($_SERVER['REQUEST_METHOD']=="POST"){
-		echo "Inside";
+	if($_SERVER["REQUEST_METHOD"]=="POST"){
 		$name=escape(clean($_POST["BName"]));
 		$roll=escape(clean($_POST["BRoll"]));
 		$email=escape(clean($_POST["BEmail"]));
 		$phone=escape(clean($_POST["BPhone"]));
 		$for_whom=escape(clean($_POST["BForWhom"]));
 		$address=escape(clean($_POST["BAddress"]));
+		$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/google-service-account.json');
 
 		$subject="Blood Request from NSS";
 		$msg="
-			<h3>$name</h3> <p> has requested for blood. </p>
-
+			<p>$name has requested for blood. </p>
 			<p>Details: </p>
-			<br>
 			<h5>Name : $name</h5>
 			<h5>Roll/Employee ID : $roll</h5>
 			<h5>Email : $email</h5>
@@ -240,11 +240,26 @@ function blood_request(){
 			<h5>Address : $address</h5>
 		";
 		$header="From: nss@iitp.ac.in";
-		$send_to ="hayyoulistentome@gmail.com";
+		$send_to ="nss@iitp.ac.in";
 
 		if (send_email($send_to,$subject,$msg,$header)){
-			echo "<h3></h3>Requested Blood successfully</h3>";
+			// echo "Your request has been sent to team NSS Team IIT Patna";
+			$firebase = (new Factory)
+			->withServiceAccount($serviceAccount)
+			->create();
+
+			$database = $firebase->getDatabase();
+			$newPost = $database
+			->getReference('requestBlood')
+			->push([
+				'name' => $name,
+				'id_roll' => $roll,
+				'email' => $email,
+				'phone'=> $phone,
+				'blood_for_whom' => $for_whom,
+				'address'=> $address
+			]);
+			echo "Your request has been sent to team NSS Team IIT Patna";
 		}
 	}
-	
 }

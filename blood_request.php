@@ -118,7 +118,6 @@
       <div class="wrap-contact100">
       
         <form class="contact100-form validate-form" id="bloodRequestForm" method="post">
-        <?php blood_request() ?>
           <span class="contact100-form-title">
             Request Blood
           </span>
@@ -158,7 +157,7 @@
             <textarea class="input100" name="BAddress" placeholder="Write your address here..." id="BAddress" required></textarea>
             <span class="focus-input100"></span>
           </div>
-          <div class="alert">Your request has been sent to NSS IIT Patna Team.</div>
+          <div class="alert" style="display:Block"><?php blood_request() ?></div>
 
           <div class="container-contact100-form-btn">
             <div class="wrap-contact100-form-btn">
