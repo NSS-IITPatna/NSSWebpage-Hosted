@@ -1,4 +1,5 @@
-<!doctype html>
+<?php include("../backend/init.php"); ?>
+<!DOCTYPE html>
 <html>
 		<head>
                 <title>Signup Form</title>
@@ -62,49 +63,48 @@
             <!--End of navbar-->
             <!--Start of the form-->
                 <section style="margin-top: 140px;">
+                <?php validate_user_registration() ?>
                 <div class="container main-bg" style="z-index: 10 !important">
                     <div>
 		                <form action="#" method="post" style="margin-top: 0 !important;" class="form-group">
 							<h3 class="legend" style=" color: #1d82b1;"><i class="fas fa-user-plus fa-1.5x px-2"></i>SignUp</h3>
 							<div class="input">
-								<input type="text" placeholder="Name" class="form-control"/>
+								<input type="text" placeholder="Name" class="form-control" name="name" id="name" required/>
 							</div>
 							<div class="input">
-								<input type="text" placeholder="Email" class="form-control"/>
+								<input type="email" placeholder="Email" class="form-control" name="email" id="email" required/>
                             </div>
                             <div class="input">
-                                <input type="text" placeholder="Roll No." class="form-control"/>
+                                <input type="text" placeholder="Roll No." class="form-control" name="rollno" id="rollno" required/>
                             </div>
                             <div class="input">
-                                <select class="custom-select">
-                                    <label class="mr-sm-2"></label>
+                                <select class="custom-select" name="unit" id="unit" required>
+                                    <label class="mr-sm-2" required></label>
                                     <option value="" disabled selected>Unit Name..<h1 style="color:black !important;" ><i class="fas fa-caret-down fa-0.5x"></i></h1></option>
-                                    <option value="Technical Skills">Technical Skills</option>
-                                    <option value="Rural Development">Rural Development</option>
                                     <option value="Environment">Environment</option>
                                     <option value="Chetna">Chetna</option>
-                                    <option value="Teaching">Teaching</option>
                                     <option value="Adhyayan">Adhyayan</option>
+                                    <option value="Rural Development">Rural Development</option>
                                 </select>
                             </div>
                             <div class="input">
-                                <input type="text" placeholder="Phone Number" class="form-control"/>
+                                <input type="phone" placeholder="Phone Number" class="form-control" name="phone" id="phone" required/>
                             </div>
                             <div class="input">
-                                <input type="password" placeholder="Password" class="form-control"/>
+                                <input type="password" placeholder="Password" class="form-control" name="password" id="password" required/>
                             </div>
                             <div class="input">
-                                <input type="password" placeholder="Confirm password" class="form-control"/>
+                                <input type="password" placeholder="Confirm password" class="form-control" name="confirm_password" id="confirm_password" required/>
                             </div>
-                            <button type="submit" class="btn submit">SignUp</button>
+                            <button type="submit" class="btn submit" name="signup" id="signup">SignUp</button>
                             <div>
                                 <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Already have an Account?<strong><a href="login.html" style="margin-left:5px; margin-right:5px;font-size: 20px;">Login</a></strong>here</p>
                             </div>
                         </form>
-                        
+
                     </div>
                 </div>
-             
+
                 </section>
                 <!--End of Form-->
                 <!--Footer-->
