@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 		<head>
-                <title>Prayatna | NSS IIT Patna</title>
+                <title>Signup Form</title>
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,8 +14,8 @@
                 <link rel="stylesheet" type="text/css" href="team.css">
                 <link rel="stylesheet" type="text/css" href="style.css">
             </head>
-    <body style="background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('apple.png'); background-repeat: no-repeat; background-size: 100% 100%;">
-          
+    <body style="z-index: 1 !important;background-image: url('assets/img/profilebg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+         <!--Navbar--> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="bg"></div>
                 <div class="container">
@@ -49,7 +49,7 @@
                                   <a class="dropdown-item" href="../cells/cells.html?cell=environment">Environment</a>
                                 </ul>
                             </li>
-                            <li class="nav-item" style="background: red; border-radius: 3px"><a class="nav-link" href="prayatna.html">Prayatna</a></li>
+                            <li class="nav-item"><a class="nav-link" href="prayatna.html">Prayatna</a></li>
                             <li class="nav-item"><a class="nav-link" href="../events.html">Events</a></li>
                             <li class="nav-item"><a class="nav-link" href="../portfolio.html">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="../think_thank.html">Think Thank</a></li>
@@ -59,11 +59,13 @@
                     </div>
                 </div>
             </nav>
-                <section style="margin-top: 100px;">
-                <div class="container main-bg">
-                    <div class="sub-main-w3">
+            <!--End of navbar-->
+            <!--Start of the form-->
+                <section style="margin-top: 140px;">
+                <div class="container main-bg" style="z-index: 10 !important">
+                    <div>
 		                <form action="#" method="post" style="margin-top: 0 !important;" class="form-group">
-							<h3 class="legend" style=" color: #00ad45;"><i class="fas fa-sign-in-alt fa-1.5x"></i>SignUp</h3>
+							<h3 class="legend" style=" color: #1d82b1;"><i class="fas fa-user-plus fa-1.5x px-2"></i>SignUp</h3>
 							<div class="input">
 								<input type="text" placeholder="Name" class="form-control"/>
 							</div>
@@ -74,26 +76,40 @@
                                 <input type="text" placeholder="Roll No." class="form-control"/>
                             </div>
                             <div class="input">
-                                <input type="text" placeholder="Unit name" class="form-control"/>
+                                <select class="custom-select">
+                                    <label class="mr-sm-2"></label>
+                                    <option value="" disabled selected>Unit Name..<h1 style="color:black !important;" ><i class="fas fa-caret-down fa-0.5x"></i></h1></option>
+                                    <option value="Technical Skills">Technical Skills</option>
+                                    <option value="Rural Development">Rural Development</option>
+                                    <option value="Environment">Environment</option>
+                                    <option value="Chetna">Chetna</option>
+                                    <option value="Teaching">Teaching</option>
+                                    <option value="Adhyayan">Adhyayan</option>
+                                </select>
                             </div>
                             <div class="input">
                                 <input type="text" placeholder="Phone Number" class="form-control"/>
                             </div>
                             <div class="input">
-                                <input type="password" placeholder="password" class="form-control"/>
+                                <input type="password" placeholder="Password" class="form-control"/>
                             </div>
                             <div class="input">
                                 <input type="password" placeholder="Confirm password" class="form-control"/>
                             </div>
                             <button type="submit" class="btn submit">SignUp</button>
-                            <p style="padding-top: 10px;padding-bottom: 10px;">Already have an Account?<strong><a href="login.html">Login</a></strong></p>
-                   
-						</form>
+                            <div>
+                                <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Already have an Account?<strong><a href="login.html" style="margin-left:5px; margin-right:5px;font-size: 20px;">Login</a></strong>here</p>
+                            </div>
+                        </form>
+                        
                     </div>
                 </div>
-            </section>
-				
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+             
+                </section>
+                <!--End of Form-->
+                <!--Footer-->
+	<div style="background:lightgrey">		
+    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height:100% !important;"></iframe>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -113,6 +129,7 @@
     js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
+  </div>
 </body>
 
 </html>
