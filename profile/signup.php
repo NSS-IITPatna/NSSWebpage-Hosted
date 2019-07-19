@@ -9,18 +9,16 @@
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
                 <link rel="icon" href="images/nss.png">
                 <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-                <link rel="stylesheet" type="text/css" href="prayatna_style.css">
-                <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-                <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-                <link rel="stylesheet" type="text/css" href="team.css">
                 <link rel="stylesheet" type="text/css" href="style.css">
+                <link rel="stylesheet" type="text/css" href="team.css">
+                <link rel="stylesheet" type="text/css" href="prayatna_style.css">
             </head>
     <body style="z-index: 1 !important;background-image: url('assets/img/profilebg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
          <!--Navbar--> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index:11">
                 <div class="bg"></div>
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img src="images/nss.png" alt="logo">NSS IIT Patna</a>
+                    <a class="navbar-brand" href="../"><img src="images/nss.png" alt="logo">NSS IIT Patna</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>

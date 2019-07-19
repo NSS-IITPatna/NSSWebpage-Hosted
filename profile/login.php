@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="bg"></div>
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img src="images/nss.png" alt="logo">NSS IIT Patna</a>
+                    <a class="navbar-brand" href="../"><img src="images/nss.png" alt="logo">NSS IIT Patna</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
