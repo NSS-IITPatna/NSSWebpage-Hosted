@@ -108,7 +108,7 @@
                 <!--End of Form-->
                 <!--Footer-->
 	
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height:200px;"></iframe>
+    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
