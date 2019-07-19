@@ -84,7 +84,7 @@
             <!--End of form-->
             <!--Footer-->
 	
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height: 200px;"></iframe>
+    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

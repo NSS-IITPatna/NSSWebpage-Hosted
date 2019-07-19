@@ -54,14 +54,14 @@
                             <li class="nav-item"><a class="nav-link" href="../events.html">Events</a></li>
                             <li class="nav-item"><a class="nav-link" href="../portfolio.html">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="../think_thank.html">Think Thank</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../login.html">Check Hours</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Check Hours</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <!--End of navbar-->
             <!--Start of the form-->
-                <section style="margin-top: 140px; height: 80vh;">
+                <section style="margin-top: 140px;margin-bottom: 100px; height: 80vh;">
                 <?php validate_user_registration() ?>
                 <div class="container main-bg" style="z-index: 10 !important">
                     <div>
