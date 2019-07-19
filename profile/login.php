@@ -10,8 +10,6 @@
         <link rel="icon" href="images/nss.png">
         <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="prayatna_style.css">
-        <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-        <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
         <link rel="stylesheet" type="text/css" href="team.css">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
@@ -62,10 +60,10 @@
             <!--End of Navbar-->
             <!--Form-->
                 <section style="margin-top: 140px;margin-bottom: 30px;height: 65vh;">
-                <?php validate_login() ?>
-                <div class="container main-bg" style="height: 350px !important;">
+                <div class="container main-bg" style="height: 100% !important;">
                     <div class="sub-main-w3">
-		                <form action="#" method="post" style="margin-top: 0 !important;" class="form-group">
+                        <form action="#" method="post" class="form-group">
+                        <div class="sub-main-w3 container"><?php validate_login() ?></div>
 							<h3 class="legend" style=" color:  #1d82b1;"><i class="fas fa-sign-in-alt fa-1.5x"></i>Login</h3>
 							<div class="input">
 								<input type="text" placeholder="Roll No" class="form-control" id="rollno" name="rollno" required/>
@@ -86,10 +84,9 @@
 	
     <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
 
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>

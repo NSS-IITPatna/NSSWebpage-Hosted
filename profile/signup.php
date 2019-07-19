@@ -61,11 +61,11 @@
             </nav>
             <!--End of navbar-->
             <!--Start of the form-->
-                <section style="margin-top: 140px;margin-bottom: 100px; height: 80vh;">
-                <?php validate_user_registration() ?>
+            <section style="margin-top: 140px; min-height: 100vh;">
                 <div class="container main-bg" style="z-index: 10 !important">
                     <div>
-		                <form action="#" method="post" style="margin-top: 0 !important;" class="form-group">
+                        <form action="#" method="post" class="form-group">
+                            <?php validate_user_registration() ?>
 							<h3 class="legend" style=" color: #1d82b1;"><i class="fas fa-user-plus fa-1.5x px-2"></i>SignUp</h3>
 							<div class="input">
 								<input type="text" placeholder="Name" class="form-control" name="name" id="name" required/>
@@ -103,8 +103,7 @@
 
                     </div>
                 </div>
-
-                </section>
+            </section>
                 <!--End of Form-->
                 <!--Footer-->
 	
