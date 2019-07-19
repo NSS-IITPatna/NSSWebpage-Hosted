@@ -54,14 +54,14 @@
                             <li class="nav-item"><a class="nav-link" href="../events.html">Events</a></li>
                             <li class="nav-item"><a class="nav-link" href="../portfolio.html">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="../think_thank.html">Think Thank</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../login.html">Check Hours</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Check Hours</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <!--End of navbar-->
             <!--Start of the form-->
-                <section style="margin-top: 140px; height: 80vh;">
+                <section style="margin-top: 140px;margin-bottom: 100px; height: 80vh;">
                 <?php validate_user_registration() ?>
                 <div class="container main-bg" style="z-index: 10 !important">
                     <div>
@@ -108,7 +108,7 @@
                 <!--End of Form-->
                 <!--Footer-->
 	
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;height:200px;"></iframe>
+    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
