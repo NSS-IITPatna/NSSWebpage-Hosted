@@ -1,9 +1,10 @@
-body {
+body,
+html {
   margin: 0;
   padding: 0;
 }
+
 .starter {
-  width: 100vw;
   height: 110vh;
   background-image: url(images/events/english.jpeg);
   background-size: cover;
@@ -11,16 +12,16 @@ body {
   background-attachment: fixed;
 }
 .start {
-  width: 100vw;
   height: 110vh;
   background: rgba(33, 57, 194, 0.7);
 }
 .all {
-  background-image: url("Capture.PNG");
+  background-image: url("adhyayan.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 ul li {
   list-style: none;
   display: inline-block;
@@ -37,7 +38,7 @@ ul li a:hover {
   width: 1200px;
   height: 400px;
   display: flex;
-  justify-content: space-between;
+
   z-index: 2;
   margin: 5vh auto;
 }
@@ -84,18 +85,504 @@ ul li a:hover {
   opacity: 1;
   background: linear-gradient(#ffc107, #e91e63);
 }
-.gallery {
-  overflow: hidden;
-  cursor: pointer;
+
+.footer .one i {
+  font-size: 2em;
+  margin: 5px;
+  color: #fff;
+  transition: 0.5s;
 }
-.gallery .row {
-  overflow: hidden;
+.footer .two i {
+  font-size: 1.4em;
+  margin: 4px;
+  transform: translateY(5px) rotateY(180deg);
+  transition: 0.5s;
 }
-.gallery img {
-  transition: all 1s ease-in;
+.footer h5 {
+  font-size: 1em;
+  color: #bbb;
+  padding-bottom: 10px;
 }
-.gallery .row :hover img {
-  transform: scale(1);
-  transition: all 1s ease-in;
-  filter: brightness(0.3);
+.footer .two {
+  color: #fff;
+}
+.footer .two a {
+  margin-right: 20px;
+  font-size: 1.5em;
+  color: #fff;
+}
+.footer .one i:hover {
+  transform: rotateY(360deg);
+  color: #00baff;
+}
+.footer .two a:hover i {
+  transform: translateY(5px) rotateY(540deg);
+  color: #26cc3a;
+}
+@media (max-width: 550px) {
+  .footer .one i {
+    font-size: 1em;
+    margin: 5px;
+  }
+  .footer .two i {
+    font-size: 0.5em;
+    margin: 5px;
+    transform: translateY(0px) rotateY(180deg);
+    transition: 0.5s;
+  }
+  .footer h5 {
+    font-size: 0.6em;
+    padding-bottom: 10px;
+  }
+  .footer .two a {
+    margin-right: 10px;
+    font-size: 1em;
+  }
+  .footer .two a:hover i {
+    transform: translateY(0px) rotateY(540deg);
+    color: #26cc3a;
+  }
+}
+hr {
+  border-style: inset;
+  border-width: 0.6px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 1620px) {
+  .seconddiv {
+    height: 70vh !important;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .nav2 .li1 {
+    margin-left: -40vw !important;
+  }
+  .nav2 .li2 {
+    margin-left: -20vw !important;
+  }
+  .nav2 .li3 {
+    margin-left: 2vw !important;
+  }
+}
+@media screen and (max-width: 1390px) {
+  .quote .box {
+    width: 340px !important;
+  }
+  .study {
+    height: 55vh !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .seconddiv {
+    height: 75vh !important;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .quote .box {
+    width: 325px !important;
+    height: 400px !important;
+  }
+  .study {
+    height: 60vh !important;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .quote .box {
+    width: 320px !important;
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .quote .box {
+    width: 320px !important;
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .quote .box {
+    width: 300px !important;
+    height: 410px !important;
+  }
+  .study {
+    height: 65vh !important;
+  }
+
+  .nav2 .li1 {
+    margin-left: -45vw !important;
+    font-size: 2.5vw !important;
+  }
+  .nav2 .li2 {
+    margin-left: -23vw !important;
+    font-size: 2.5vw !important;
+  }
+  .nav2 .li3 {
+    margin-left: -2vw !important;
+    font-size: 2.5vw !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .starter .start .mainheading {
+    margin-left: 15vw !important;
+  }
+  .quote .box {
+    width: 900px !important;
+    height: 230px !important;
+    margin-top: 10px !important;
+  }
+  .seconddiv {
+    height: 78vh !important;
+  }
+  .ourbox {
+    height: 140vh !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .quote .box {
+    width: 850px !important;
+    height: 250px !important;
+  }
+  .seconddiv {
+    height: 85vh !important;
+  }
+  .study {
+    height: 72vh !important;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .seconddiv {
+    height: 90vh !important;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .quote .box {
+    width: 820px !important;
+    height: 270px !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .quote .box {
+    width: 700px !important;
+    height: 270px !important;
+  }
+  .nav2 .li1 {
+    margin-left: -50vw !important;
+    font-size: 3vw !important;
+  }
+  .nav2 .li2 {
+    margin-left: -28vw !important;
+    font-size: 3vw !important;
+  }
+  .nav2 .li3 {
+    margin-left: -8vw !important;
+    font-size: 3vw !important;
+  }
+  .seconddiv {
+    height: 95vh !important;
+  }
+  .study {
+    height: 73vh !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .starter .start .under1 {
+    margin: -45px auto !important;
+  }
+}
+@media screen and (max-width: 930px) {
+  .seconddiv {
+    height: 95vh !important;
+  }
+  .study {
+    height: 76vh !important;
+  }
+}
+@media screen and (max-width: 910px) {
+  .quote .box {
+    width: 600px !important;
+    height: 270px !important;
+  }
+  .starter .start .ini {
+    margin-left: 30vw !important;
+  }
+  .starter .start .ini2 {
+    margin-left: 38vw !important;
+  }
+}
+@media screen and (max-width: 890px) {
+  .quote .box {
+    width: 630px !important;
+    height: 270px !important;
+  }
+  .seconddiv {
+    height: 95vh !important;
+  }
+  .seconddiv .abtcon {
+    font-size: 18px !important;
+  }
+  .starter .start .under1 {
+    margin: -40px auto !important;
+  }
+
+  .study .stucon {
+    font-size: 18px !important;
+  }
+  .quote .box .quoteabt {
+    font-size: 18px !important;
+  }
+  .starter .start .mainheading {
+    margin-left: 13vw !important;
+  }
+  .study {
+    height: 70vh !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .starter .start .under1 {
+    margin: -35px auto !important;
+  }
+  .study {
+    height: 76vh !important;
+  }
+}
+@media screen and (max-width: 730px) {
+  .starter .start .under1 {
+    margin: -30px auto !important;
+  }
+}
+@media screen and (max-width: 790px) {
+  .quote .box {
+    width: 590px !important;
+    height: 270px !important;
+  }
+  .quote .box .quoteabt {
+    font-size: 16px !important;
+  }
+  .seconddiv {
+    height: 87vh !important;
+  }
+  .seconddiv .abtcon {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  .seconddiv {
+    height: 90vh !important;
+  }
+}
+@media screen and (max-width: 730px) {
+  .seconddiv {
+    height: 93vh !important;
+  }
+  .quote .box {
+    width: 500px !important;
+    height: 270px !important;
+  }
+  .starter .start .mainheading {
+    font-size: 13vw !important;
+    margin-left: 10vw !important;
+  }
+  .study {
+    height: 85vh !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .seconddiv {
+    height: 97vh !important;
+  }
+}
+@media screen and (max-width: 670px) {
+  .quote .box {
+    width: 470px !important;
+    height: 270px !important;
+  }
+  .study {
+    height: 91vh !important;
+  }
+  .starter .start .mainheading {
+    margin-left: 8.5vw !important;
+  }
+  .seconddiv {
+    height: 100vh !important;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .quote .box {
+    width: 450px !important;
+    height: 270px !important;
+  }
+  .study {
+    height: 93vh !important;
+  }
+  .starter .start .ini {
+    margin-left: 25vw !important;
+  }
+  .starter .start .ini2 {
+    margin-left: 33vw !important;
+  }
+  .seconddiv {
+    height: 105vh !important;
+  }
+}
+@media screen and (max-width: 660px) {
+  .starter .start .under1 {
+    margin: -25px auto !important;
+    width: 13vw !important;
+  }
+  .starter .start .mainheading {
+    margin-left: 4vw !important;
+  }
+  .seconddiv {
+    height: 107vh !important;
+  }
+}
+@media screen and (max-width: 615px) {
+  .quote .box {
+    width: 410px !important;
+    height: 250px !important;
+  }
+  .quote .box .quoteabt {
+    font-size: 15px !important;
+  }
+  .seconddiv {
+    height: 100vh !important;
+  }
+  .seconddiv .abtcon {
+    font-size: 14.5px !important;
+  }
+
+  .study {
+    height: 85vh !important;
+  }
+  .study .stucon {
+    font-size: 14.5px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .seconddiv {
+    height: 105vh !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .quote .box {
+    width: 370px !important;
+    height: 250px !important;
+  }
+  .seconddiv {
+    height: 105vh !important;
+  }
+  .study {
+    height: 90vh !important;
+  }
+  .quote .box .quoteabt {
+    font-size: 13px !important;
+  }
+  .ourbox {
+    height: 133vh !important;
+  }
+  .starter .start .ini {
+    margin-left: 19vw !important;
+  }
+  .starter .start .ini2 {
+    margin-left: 30vw !important;
+  }
+  .starter .start .mainheading {
+    margin-left: 10vw !important;
+  }
+  .nav2 .li1 {
+    margin-left: -62vw !important;
+    font-size: 4vw !important;
+  }
+  .nav2 .li2 {
+    margin-left: -41vw !important;
+    font-size: 4vw !important;
+  }
+  .nav2 .li3 {
+    margin-left: -19vw !important;
+    font-size: 4vw !important;
+  }
+  .starter .start .under1 {
+    margin: -20px auto !important;
+    width: 15vw !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .seconddiv {
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .study {
+    height: 98vh !important;
+  }
+  .ourbox {
+    height: 140vh !important;
+  }
+  .seconddiv {
+    height: 115vh !important;
+  }
+}
+.footer .one i {
+  font-size: 2em;
+  margin: 5px;
+  color: #fff;
+  transition: 0.5s;
+}
+.footer .two i {
+  font-size: 1.4em;
+  margin: 4px;
+  transform: translateY(5px) rotateY(180deg);
+  transition: 0.5s;
+}
+.footer h5 {
+  font-size: 1em;
+  color: #bbb;
+  padding-bottom: 10px;
+}
+.footer .two {
+  color: #fff;
+}
+.footer .two a {
+  margin-right: 20px;
+  font-size: 1.5em;
+  color: #fff;
+}
+.footer .one i:hover {
+  transform: rotateY(360deg);
+  color: #00baff;
+}
+.footer .two a:hover i {
+  transform: translateY(5px) rotateY(540deg);
+  color: #26cc3a;
+}
+@media (max-width: 550px) {
+  .footer .one i {
+    font-size: 1em;
+    margin: 5px;
+  }
+  .footer .two i {
+    font-size: 0.5em;
+    margin: 5px;
+    transform: translateY(0px) rotateY(180deg);
+    transition: 0.5s;
+  }
+  .footer h5 {
+    font-size: 0.6em;
+    padding-bottom: 10px;
+  }
+  .footer .two a {
+    margin-right: 10px;
+    font-size: 1em;
+  }
+  .footer .two a:hover i {
+    transform: translateY(0px) rotateY(540deg);
+    color: #26cc3a;
+  }
+}
+hr {
+  border-style: inset;
+  border-width: 0.6px;
+  border-color: rgba(0, 0, 0, 0.3);
 }
