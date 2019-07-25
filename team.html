@@ -7,86 +7,91 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Core Team | NSS IIT Patna</title>
-
+    
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="apple-touch-icon-precomposed" href="images/mainNSS/logo.jpeg">
     <link rel="stylesheet" href="css/team.css">
-
 
 </head>
 <!--/head-->
 
 
-<body style="background:#F1EFEF">
+<body>
+   
+  
+    <header id="header">
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/mainNSS/nssweb.png" alt="logo"
+                            style="width: 150px; height: auto"></a>
+                </div>
 
-  <header id="header" class="sticky">
-      <nav class="navbar navbar-inverse" role="banner">
-          <div class="container">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="index.html"><img src="images/mainNSS/nssweb.png" alt="logo" style="width: 150px; height: auto"></a>
-              </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i
+                                    class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li class="active"><a href="team.html">Our Team</a></li>
+                                <li><a href="faq.html">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cells <i
+                                    class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="cells/cells.html?cell=technical">Technical Skills</a></li>
+                                <li><a href="cells/cells.html?cell=rural">Rural Development</a></li>
+                                <li><a href="cells/cells.html?cell=chetna">Chetna</a></li>
+                                <li><a href="cells/cells.html?cell=teaching">Teaching</a></li>
+                                <li><a href="cells/cells.html?cell=environment">Environmental</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="prayatna/prayatna.html">Prayatna</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="portfolio.html">Gallery</a></li>
+                        <li><a href="think_thank.html">Think-Thank</a></li>
+                        <li><a href="login.html">Check-Hours</a></li>
 
-              <div class="collapse navbar-collapse navbar-right">
-                  <ul class="nav navbar-nav">
-                      <li ><a href="index.html">Home</a></li>
-                      <li class="dropdown active" >
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
-                          <ul class="dropdown-menu">
-                              <li><a href="about-us.html">About Us</a></li>
-                              <li class="active"><a href="team.html">Our Team</a></li>
-                              <li><a href="faq.html">FAQs</a></li>
-                          </ul>
-                      </li>
-                      <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cells <i class="fa fa-angle-down"></i></a>
-                          <ul class="dropdown-menu">
-                              <li><a href="cells/cells.html?cell=technical">Technical Skills</a></li>
-                              <li><a href="cells/cells.html?cell=rural">Rural Development</a></li>
-                              <li><a href="cells/cells.html?cell=chetna">Chetna</a></li>
-                              <li><a href="cells/cells.html?cell=teaching">Teaching</a></li>
-                              <li><a href="cells/cells.html?cell=environment">Environmental</a></li>
-                          </ul>
-                      </li>
-                      <li><a href="prayatna/prayatna.html">Prayatna</a></li>
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="portfolio.html">Gallery</a></li>
-                      <li><a href="think_thank.html">Think-Thank</a></li>
-                      <li><a href="profile/login.php">Check-Hours</a></li>
-                     
 
-                  </ul>
-              </div>
-          </div>
-          <!--/.container-->
-      </nav>
-      <!--/nav-->
+                    </ul>
+                </div>
+            </div>
+            <!--/.container-->
+        </nav>
+        <!--/nav-->
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
-        </div>  
-  </header>
+        </div>
+    </header>
 
+ 
+    <section class="team" id="team" >
+<hr style="width:30vw;margin:0px auto;background-color: orangered;" size="6" >
+        <div class="container mt-5" style="margin: 0 auto 100px;">
+            <h1 style="letter-spacing: 1px;word-spacing:3px;"><span>Administrative </span>Body</h1>
 
-    <section class="team" id="team" style="margin: 50px 20px 0">
-
-        <div class="container mt-5" style="margin: 0 auto 100px">
-            <h1><span>Administrative </span>Body</h1>
-
-            <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <div class="col-md-4 col-sm-6 col-centered">
+                    <div class="box" data-aos="flip-left" style="box-shadow: 20px 10px 10px 10px;">
                         <img src="images/team/director.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                      
+
                         <div class="box-content">
                             <h3 class="title">Prof.Pushpak Bhattacharya</h3>
                             <span class="post">Director IIT Patna</span>
@@ -100,15 +105,16 @@
                 </div>
             </div>
 
-            <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <div class="col-md-4 col-sm-6 col-centered">
+                    <div class="box" data-aos="flip-left" style="box-shadow: 20px 10px 10px 10px;">
                         <img src="images/team/adean.jpg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Dr. Akhilendra Singh</h3>
                             <span class="post">Adean Student's Affair IIT Patna</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/akhilendra.singh.169"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/akhilendra.singh.169"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -117,15 +123,16 @@
                 </div>
             </div>
 
-            <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box" data-aos="flip-up"  style="box-shadow: 20px 10px 10px 10px;">
                         <img src="images/team/rajgopal.jpeg" alt="" style="height: 320px; background-size: 100% 100%">
-                       <div class="box-content">
+                        <div class="box-content">
                             <h3 class="title">Dr. T Rajgopala Rao</h3>
                             <span class="post">PIC NSS IIT Patna</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/rajagopalarao.tammineni"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/rajagopalarao.tammineni"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -133,8 +140,9 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
-                        <img src="images/team/sushant_kumar.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                    <div class="box" style="box-shadow: 20px 10px 10px 10px;" data-aos="flip-up">
+                        <img src="images/team/sushant_kumar.jpg" alt=""
+                            style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Dr. Sushant Kumar</h3>
                             <span class="post">NSS Member IIT Patna</span>
@@ -147,9 +155,9 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="flip-up">
                         <img src="images/team/fpic.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                       <div class="box-content">
+                        <div class="box-content">
                             <h3 class="title">Dr. Ajay Thakur</h3>
                             <span class="post">Advisory Member NSS IIT Patna</span>
                             <span class="post">
@@ -161,7 +169,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="flip-up">
                         <img src="images/team/Rajendra.jpg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Dr. Rajendra N. Paramanik</h3>
@@ -175,18 +183,19 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
 
         <div class="container mt-5" style="margin: 0 auto 100px">
             <h1><span>Core </span>Commette</h1>
+            <hr style="width:30vw;margin:0px auto;background-color: orangered;" size="6" >
 
-            <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
                 <h2><span>General </span>Secretary</h2>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="flip-down">
                         <img src="images/team/jagdish.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                       <div class="box-content">
+                        <div class="box-content">
                             <h3 class="title">Jagdish Chaudhary Anjana</h3>
                             <span class="post">General Secretary Of NSS IIT Patna</span>
                             <span class="post">
@@ -199,16 +208,18 @@
                 </div>
             </div>
 
-            <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                    <hr style="width:20vw;margin:0px auto;background-color: orangered;" size="6" >
                 <h2><span>Coordinators </span></h2>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in">
                         <img src="images/team/anuj.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                      <div class="box-content">
+                        <div class="box-content">
                             <h3 class="title">Anuj Shastri</h3>
                             <span class="post">Coordinator</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/anuj.shastri.3910?ref=br_rs"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/anuj.shastri.3910?ref=br_rs"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -216,13 +227,14 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in">
                         <img src="images/team/nikhil.jpeg" alt="" style="height: 320px; background-size: 100% 100%">
-                      <div class="box-content">
+                        <div class="box-content">
                             <h3 class="title">Nikhil George</h3>
                             <span class="post">Coordinator</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/nikhil.george.102"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/nikhil.george.102"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -230,13 +242,14 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in">
                         <img src="images/team/nitin.jpg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Nitin Yadav</h3>
                             <span class="post">Coordinator</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/nitin.yadav.710667"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/nitin.yadav.710667"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -244,13 +257,14 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in">
                         <img src="images/team/vaibhav.jpeg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Vaibhav Patil</h3>
                             <span class="post">Coordinator</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/profile.php?id=100005823706916"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100005823706916"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -258,7 +272,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in">
                         <img src="images/team/vatsal.jpg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Vatsal Singhal</h3>
@@ -273,10 +287,11 @@
                 </div>
             </div>
 
-            <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                    <hr style="width:20vw;margin:0px auto;background-color: orangered;" size="6" >
                 <h2><span>Secretary </span></h2>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-up">
                         <img src="images/team/amartya.jpg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Amartya Mondal</h3>
@@ -290,13 +305,14 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-up">
                         <img src="images/team/kishan.jpg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Kishan Kumar Singh</h3>
                             <span class="post">Secretary</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/kkadv4396?ref=br_rs"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/kkadv4396?ref=br_rs"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -304,13 +320,14 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-centered">
-                    <div class="box">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-up">
                         <img src="images/team/shivani.jpg" alt="" style="height: 320px; background-size: 100% 100%">
                         <div class="box-content">
                             <h3 class="title">Shivani Dixit</h3>
                             <span class="post">Secretary</span>
                             <span class="post">
-                                <a href="https://www.facebook.com/shivani.dixit.79025"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/shivani.dixit.79025"><i
+                                        class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </span>
@@ -322,320 +339,363 @@
         </div>
 
         <div class="container mt-5" style="margin: 0 auto 100px">
-                <h1><span>Mentors </span></h1>
-    
-                <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                    <h2><span>Chetna Awareness </span>Cell</h2>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/anand.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Anand Kishore</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/anand.kishore.52056"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Abhay Singh</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/rampati.devi.90"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                    <h2><span>Environment </span>Cell</h2>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Aayush Shah</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/aayush.shah.1806"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/saiyyam.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Saiyyam Mittal</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/saiyyam.mittal"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                    <h2><span>Rural Development </span>Cell</h2>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/raushan.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Raushan Kumar</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/profile.php?id=100004985296789"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/swati.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Swati Kumari</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/swati.lohani.750"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1><span>Mentors </span></h1>
+            <hr style="width:30vw;margin:0px auto;background-color: orangered;" size="6" >
 
-                <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                    <h2><span>Adhyayan</span>Cell</h2>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Mariya Jojy</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/mariya.jojy.94"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Rahul Gupta</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/rishabh.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Rishabh Agarwal</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/profile.php?id=100014075522468&ref=br_rs"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/mahathi.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">M. Mahathi</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/m.mahathi.79"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-            
-
-                   <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Adiba Yasmin</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/adiba.yasmin.7169"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/joshika.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Joshika</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/joshika.arya"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/sakhsam.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Saksham Jha</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/saksham.jha.750"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-centered">
-                        <div class="box">
-                            <img src="images/team/satyam.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                            <div class="box-content">
-                                <h3 class="title">Satyam Kumar</h3>
-                                <span class="post">Mentor</span>
-                                <span class="post">
-                                    <a href="https://www.facebook.com/profile.php?id=100009552196113"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </span>
-                            </div>
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <h2><span>Chetna Awareness </span>Cell</h2>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;"data-aos="zoom-in-left">
+                        <img src="images/team/anand.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Anand Kishore</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/anand.kishore.52056"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
                         </div>
                     </div>
                 </div>
-    
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-left">
+                        <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Abhay Singh</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/rampati.devi.90"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="container mt-5" style="margin: 0 auto 100px">
-                    <h1><span>Sub </span>Coordinators</h1>
-        
-                    <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                        <h2><span>Creatives </span>and Design</h2>
-                        <div class="col-md-3 col-sm-6 col-centered">
-                            <div class="box">
-                                <img src="images/team/ankit.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                                <div class="box-content">
-                                    <h3 class="title">Ankit Kumar</h3>
-                                    <span class="post">Sub-Coordinater</span>
-                                    <span class="post">
-                                        <a href="https://www.facebook.com/ankitkumarmrj"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-centered">
-                            <div class="box">
-                                <img src="http://www.webcoderskull.com/img/team1.png" alt="">
-                                <div class="box-content">
-                                    <h3 class="title">Shreyansh Anand</h3>
-                                    <span class="post">Sub-Coordinater</span>
-                                    <span class="post">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </span>
-                                </div>
-                            </div>
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <h2><span>Environment </span>Cell</h2>
+                <hr style="width:10vw;margin:0px auto;background-color: orangered;" size="6" >
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-right">
+                        <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Aayush Shah</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/aayush.shah.1806"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
                         </div>
                     </div>
-        
-                    <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                        <h2><span>Media </span>and Publications</h2>
-                        <div class="col-md-3 col-sm-6 col-centered">
-                            <div class="box">
-                                <img src="images/team/swati.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                                <div class="box-content">
-                                    <h3 class="title">Swati Kumari</h3>
-                                    <span class="post">Sub-Coordinater</span>
-                                    <span class="post">
-                                        <a href="https://www.facebook.com/swati.lohani.750"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-centered">
-                            <div class="box">
-                                <img src="images/team/vijaya.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                                <div class="box-content">
-                                    <h3 class="title">Vijaya Gonugade</h3>
-                                    <span class="post">Sub-Coordinater</span>
-                                    <span class="post">
-                                        <a href="https://www.facebook.com/vijaya.gonugade.35?epa=SEARCH_BOX"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="row my-5" style="text-align: center; margin: 0 auto 50px">
-                        <h2><span>Web </span>and App</h2>
-                        <div class="col-md-3 col-sm-6 col-centered">
-                            <div class="box">
-                                <img src="images/team/ashwani.jpg" alt="" style="height: 320px; background-size: 100% 100%">
-                                <div class="box-content">
-                                    <h3 class="title">Ashwani Yadav</h3>
-                                    <span class="post">Sub-Coordinater</span>
-                                    <span class="post">
-                                        <a href="https://www.facebook.com/ashwani.yadav9499"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        
                 </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-right">
+                        <img src="images/team/saiyyam.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Saiyyam Mittal</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/saiyyam.mittal"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+               
+            </div>
+            </div>
 
-            
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <h2><span>Rural Development </span>Cell</h2>
+                <hr style="width:10vw;margin:0px auto;background-color: orangered;" size="6" >
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-left">
+                        <img src="images/team/raushan.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Raushan Kumar</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/profile.php?id=100004985296789"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-left">
+                        <img src="images/team/swati.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Swati Kumari</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/swati.lohani.750"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <h2><span>Adhyayan </span>Cell</h2>
+                <hr style="width:10vw;margin:0px auto;background-color: orangered;" size="6" >
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-right">
+                        <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Mariya Jojy</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/mariya.jojy.94"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-right">
+                        <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Rahul Gupta</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-right">
+                        <img src="images/team/rishabh.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Rishabh Agarwal</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/profile.php?id=100014075522468&ref=br_rs"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-right">
+                        <img src="images/team/mahathi.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">M. Mahathi</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/m.mahathi.79"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+          <!--  </div>-->
+
+      <!--      <div class="row my-5" style="text-align: center; margin: 0 auto 25px">-->
+              <!--  <h2><span>Teaching </span>Cell</h2>-->
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-left">
+                        <img src="http://www.webcoderskull.com/img/team1.png" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Adiba Yasmin</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/adiba.yasmin.7169"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-left">
+                        <img src="images/team/joshika.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Joshika</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/joshika.arya"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-left">
+                        <img src="images/team/sakhsam.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Saksham Jha</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/saksham.jha.750"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-in-left">
+                        <img src="images/team/satyam.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Satyam Kumar</h3>
+                            <span class="post">Mentor</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/profile.php?id=100009552196113"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       <!-- </div>-->
+       
+
+        <div class="container mt-5" style="margin: 0 auto 100px">
+                <hr style="width:20vw;margin:0px auto;background-color: orangered;" size="6" >
+            <h1><span>Sub </span>Coordinators</h1>
+            <hr style="width:30vw;margin:0px auto;background-color: orangered;" size="6" >
+
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <h2><span>Creatives </span>and Design</h2>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-out">
+                        <img src="images/team/ankit.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Ankit Kumar</h3>
+                            <span class="post">Sub-Coordinater</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/ankitkumarmrj"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-out">
+                        <img src="http://www.webcoderskull.com/img/team1.png" alt="">
+                        <div class="box-content">
+                            <h3 class="title">Shreyansh Anand</h3>
+                            <span class="post">Sub-Coordinater</span>
+                            <span class="post">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <h2><span>Media </span>and Publications</h2>
+                <hr style="width:10vw;margin:0px auto;background-color: orangered;" size="6" >
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-out">
+                        <img src="images/team/swati.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Swati Kumari</h3>
+                            <span class="post">Sub-Coordinater</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/swati.lohani.750"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-out">
+                        <img src="images/team/vijaya.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Vijaya Gonugade</h3>
+                            <span class="post">Sub-Coordinater</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/vijaya.gonugade.35?epa=SEARCH_BOX"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5" style="text-align: center; margin: 0 auto 25px">
+                <h2><span>Web </span>and App</h2>
+                <hr style="width:10vw;margin:0px auto;background-color: orangered;" size="6" >
+                <div class="col-md-3 col-sm-6 col-centered">
+                    <div class="box"  style="box-shadow: 20px 10px 10px 10px;" data-aos="zoom-out">
+                        <img src="images/team/ashwani.jpg" alt="" style="height: 320px; background-size: 100% 100%">
+                        <div class="box-content">
+                            <h3 class="title">Ashwani Yadav</h3>
+                            <span class="post">Sub-Coordinater</span>
+                            <span class="post">
+                                <a href="https://www.facebook.com/ashwani.yadav9499"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <hr style="width:20vw;margin:0px auto;background-color: orangered;" size="6" >
+        </div>
+        
+
     </section>
 
-   
-   
+
+
     <!--/support area-->
 
     <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
     <!--/#footer-->
+
+    <!-- Defining function for fixed header -->
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+    </script>
+
+
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -643,16 +703,11 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
-
-    <!-- Defining function for fixed header -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        window.onscroll = function() {myFunction()};
-        function myFunction() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("myBar").style.width = scrolled + "%";
-        }
+        AOS.init({
+            duration: 2000,
+        });
     </script>
 </body>
 
