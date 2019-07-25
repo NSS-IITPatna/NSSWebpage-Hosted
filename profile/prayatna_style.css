@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Merienda|Ubuntu');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent !Important;
+    transition: .5s;
+}
+.navbar .container{
+    z-index: 2;
+}
+
+.navbar .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#ff0000,#0000ff);
+    opacity: 0;
+    z-index: 0;
+    transition: .5s;
+}
+.navbar.bg-active .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#ff0000,#0000ff);
+    opacity: 1;
+    z-index: 0;
+    transition: .5s;
+}
+.navbar .navbar-brand{
+    color: #fff;
+}
+.navbar .navbar-brand img{
+    width: 60px;
+    height: 60px;
+    transition: .5s;
+    margin-right: 10px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.navbar.bg-active .navbar-brand img{
+    height: 40px;
+    width: 40px;
+    transition: .5s;
+}
+
+@media(max-width:992px){
+    .navbar.bg-active .bg{
+        opacity: 0;
+    }
+    .navbar{
+        background: linear-gradient(90deg,red,blue) !Important;
+        position: relative;
+    }
+}
+
+.header11{
+    background-image: url(images/p1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.header1{
+    background: rgba(0,0,0,.4);
+    padding: 10%;
+    overflow: hidden;
+}
+.header1 .content .header{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}
+.header1 .content .header img{
+    margin: 0 20px;
+}
+.header1 .content .para{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+.header1 .row .col1,.header1 .row .col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1 .row .col1 div{
+    box-sizing: border-box;
+    padding: 50px;
+}
+.header1 .content h1,.header1 .content p{
+    color: #fff;
+    font-weight: bold;
+}
+.header1 .row .col1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.header1 .row .col2 div{
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1 .row .col2 div img{
+    width: 90%;
+    border-radius: 50%;
+}
+@media(max-width:500px){
+    .header1 .row .col2 div img{
+        width: 100%;
+    }
+}
+.section1{
+    padding: 5% 10%;
+}
+.section1 .container{
+    background: rgba(0,0,0,.2);
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,.5);
+}
+.section1 .item p,.section3 .item p{
+    text-align: center;
+}
+
+.section2{
+    padding: 5% 0;
+}
+.section2 .container{
+    padding: 5% 0;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,.5);
+    background: linear-gradient(45deg,rgba(132, 100, 180, .8),rgba(52, 242, 38, 1),rgba(242, 45, 38, .5),rgba(222, 59, 203, 1),rgba(59, 184, 222, 1));
+    animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-size:100%;
+    }
+    25%{
+        background-size:200%;
+    }
+    50%{
+        background-size:300%;
+    }
+    75%{
+        background-size:200%;
+    }
+    100%{
+        background-size:100%;
+    }
+}
+.section2{
+    padding: 0 10%;
+}
+.section2 .row .col1,.section2 .row .col2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.section2 .row .col2 div img{
+    width: 75%;
+}
+.section2 ul{
+    list-style: none;
+}
+.section2 ul li{
+    font-size: 1.2em;
+}
+.section2 span{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #f00;
+    margin-bottom: 20px;
+}
+.section2 strong{
+    color: rgb(70, 37, 218);
+}
+
+.section3{
+    padding: 5% 10%;
+}
+
+footer{
+    background: #676262;
+}
+footer .one i{
+    font-size: 2em;
+    margin: 10px;
+    color: #fff;
+    transition: .5s;
+}
+footer .two i{
+    font-size: 1.5em;
+    margin: 10px;
+    transform: translateY(5px) rotateY(180deg);
+    transition: .5s;
+}
+footer h5{
+    font-size: .8em;
+    color: #bbb;
+    padding-bottom: 10px;
+}
+footer .two{
+    color: #fff;
+}
+footer .two a{
+    margin-right: 20px;
+    font-size: 1.5em;
+    color: #fff;
+}
+footer .one i:hover{
+    transform: rotateY(360deg);
+    color: #00baff;
+}
+footer .two a:hover i{
+    transform: translateY(5px) rotateY(540deg);
+    color: #26cc3a;
+}
