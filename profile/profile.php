@@ -100,11 +100,11 @@
 
                                     <div class="col-sm-6">
                                             <div class="form-group">
-                                            <h4><b>HOURS COMPLETED</b></h4>	<h6 id="hours"><?php echo $_SESSION['total'] ?></h6>
+                                            <h4><b>HOURS COMPLETED</b></h4>	<h6 id="hours"><?php echo $_SESSION['total_hour'] ?></h6>
                                             </div>
                                             <div class="form-group">
                                                 <h4><b>HOURS LEFT</b></h4>	<h6 id="hours"><?php 
-                                                    $hour_done=(float)$_SESSION['total'];
+                                                    $hour_done=(float)$_SESSION['total_hour'];
                                                     $hour_left=80.00-$hour_done;
                                                     if($hour_left>0){
                                                         echo $hour_left;
