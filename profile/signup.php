@@ -1,123 +1,180 @@
 <?php include("../backend/init.php"); ?>
 <!DOCTYPE html>
-<html>
-		<head>
-                <title>Signup Form</title>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-                <link rel="icon" href="images/nss.png">
-                <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-                <link rel="stylesheet" type="text/css" href="style.css">
-                <link rel="stylesheet" type="text/css" href="team.css">
-                <link rel="stylesheet" type="text/css" href="prayatna_style.css">
-            </head>
-    <body style="z-index: 1 !important;background-image: url('assets/img/profilebg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
-         <!--Navbar--> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index:11">
-                <div class="bg"></div>
-                <div class="container">
-                    <a class="navbar-brand" href="../"><img src="images/nss.png" alt="logo">NSS IIT Patna</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
-                        <span class="navbar-toggler-icon"></span>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sign Up | NSS IIT Patna</title>
+
+    <!-- core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/owl.carousel.min.css" rel="stylesheet">
+    <link href="../css/icomoon.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="../css/pricing.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" href="images/nss.png">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+	<meta name="google-site-verification" content="_gyiigXcvkgghx9PqO-7J7m6IGkh3v8yhU7kaIIIna0" />
+    <meta name="msvalidate.01" content="1E858DE352998C73F3BA7E5D241A9D8E" />
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="../images/mainNSS/logo.ico">
+    <link rel="apple-touch-icon-precomposed" href="../images/mainNSS/logo.jpeg">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <meta name="google-site-verification" content="5jeUjq5UnPfqIsVV7KlXIlMmCH6EgLDvLI4C-aCcGpM"/>
+  
+<style>
+.blinking{
+	animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #4F01F9;	}
+	49%{	color: #01AEF9;	}
+	50%{	color: #01F918;	}
+	99%{	color:#F95401;	}
+	100%{	color: #F90118;	}
+}
+</style>
+
+</head>
+<!--/head-->
+
+<body class="homepage" style="background-image: url('assets/img/profilebg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;height: 100%;">
+    <header id="header" class="sticky">
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar" style="float: right">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active"><a class="nav-link" href="../index.html">Home</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                                    Get Involved
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <a class="dropdown-item" href="../about-us.html">About Us</a>
-                                  <a class="dropdown-item" href="../team.html">Our Team</a>
-                                  <a class="dropdown-item" href="../faq.html">FAQs</a>
-                                  <a class="dropdown-item" href="https://docs.google.com/document/d/1EgpxEHza7NJGcw6CV3m7fv25ZJsbJpALqj1VH3ZOTl8/edit" target="_blank">Rules & Policies</a>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                                    Cells
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <a class="dropdown-item" href="../cells/cells.html?cell=technical">Technical Skills</a>
-                                  <a class="dropdown-item" href="../cells/cells.html?cell=rural">Rural Development</a>
-                                  <a class="dropdown-item" href="../cells/cells.html?cell=chetna">Chetna</a>
-                                  <a class="dropdown-item" href="../cells/cells.html?cell=teaching">Teaching</a>
-                                  <a class="dropdown-item" href="../cells/cells.html?cell=environment">Environment</a>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="prayatna.html">Prayatna</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../events.html">Events</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../portfolio.html">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../think_thank.html">Think Thank</a></li>
-                            <li class="nav-item"><a class="nav-link" href="">Check Hours</a></li>
-                        </ul>
-                    </div>
+                    <a class="navbar-brand" href="../"><img src="../images/mainNSS/nssweb.png" alt="logo" style="width: 150px; height: auto"></a>
                 </div>
-            </nav>
-            <!--End of navbar-->
-            <!--Start of the form-->
-            <section style="margin-top: 140px; min-height: 100vh;">
-                <div class="container main-bg" style="z-index: 10 !important">
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../">Home</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved<i class="fa fa-angle-down"></i></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="../about-us.html">About Us</a></li>
+                              <li><a href="../team.html">Our Team</a></li>
+                              <li><a href="../faq.html">Faqs</a></li>
+                              <li><a href="https://docs.google.com/document/d/1EgpxEHza7NJGcw6CV3m7fv25ZJsbJpALqj1VH3ZOTl8/edit" target="_blank">Rules & Policies</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Units <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../adhyayan.html">Adhyayan</a></li>
+                                <li><a href="../cells/cells.html?cell=technical">Technical Skills</a></li>
+                                <li><a href="../cells/cells.html?cell=rural">Rural Development</a></li>
+                                <li><a href="../cells/cells.html?cell=chetna">Chetna</a></li>
+                                <li><a href="../cells/cells.html?cell=teaching">Teaching</a></li>
+                                <li><a href="../cells/cells.html?cell=environment">Environmental</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../prayatna/prayatna.html">Prayatna</a></li>
+                        <li><a href="../events.html">Events</a></li>
+                        <li><a href="../portfolio.html">Gallery</a></li>
+                        <li><a href="../think_thank.html">Think-Thank</a></li>
+                        <li><a href="../profile/login.php">Check-Hours</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--/.container-->
+        </nav>
+        <!--/nav-->
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>  
+    </header>
+    <!--/header-->
+    <!--Start of the form-->
+    <section style="margin-top: 30px; min-height: 100%;">
+        <div class="container main-bg" style="z-index: 10 !important">
+            <div>
+                <form action="#" method="post" class="form-group">
+                    <?php validate_user_registration() ?>
+                    <h3 class="legend" style=" color: #1d82b1;"><i class="fas fa-user-plus fa-1.5x px-2"></i>SignUp</h3>
+                    <div class="input">
+                        <input type="text" placeholder="Name" class="form-control" name="name" id="name" required/>
+                    </div>
+                    <div class="input">
+                        <input type="email" placeholder="Email" class="form-control" name="email" id="email" required/>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Roll No." class="form-control" name="rollno" id="rollno" required/>
+                    </div>
+                    <div class="input">
+                        <select class="custom-select" name="unit" id="unit" required>
+                            <label class="mr-sm-2" required></label>
+                            <option value="" disabled selected>Unit Name..<h1 style="color:black !important;" ><i class="fas fa-caret-down fa-0.5x"></i></h1></option>
+                            <option value="Environment">Environment</option>
+                            <option value="Chetna">Chetna</option>
+                            <option value="Adhyayan">Adhyayan</option>
+                            <option value="Rural Development">Rural Development</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <input type="phone" placeholder="Phone Number" class="form-control" name="phone" id="phone" required/>
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Password" class="form-control" name="password" id="password" required/>
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Confirm password" class="form-control" name="confirm_password" id="confirm_password" required/>
+                    </div>
+                    <button type="submit" class="btn submit" name="signup" id="signup">SignUp</button>
                     <div>
-                        <form action="#" method="post" class="form-group">
-                            <?php validate_user_registration() ?>
-							<h3 class="legend" style=" color: #1d82b1;"><i class="fas fa-user-plus fa-1.5x px-2"></i>SignUp</h3>
-							<div class="input">
-								<input type="text" placeholder="Name" class="form-control" name="name" id="name" required/>
-							</div>
-							<div class="input">
-								<input type="email" placeholder="Email" class="form-control" name="email" id="email" required/>
-                            </div>
-                            <div class="input">
-                                <input type="text" placeholder="Roll No." class="form-control" name="rollno" id="rollno" required/>
-                            </div>
-                            <div class="input">
-                                <select class="custom-select" name="unit" id="unit" required>
-                                    <label class="mr-sm-2" required></label>
-                                    <option value="" disabled selected>Unit Name..<h1 style="color:black !important;" ><i class="fas fa-caret-down fa-0.5x"></i></h1></option>
-                                    <option value="Environment">Environment</option>
-                                    <option value="Chetna">Chetna</option>
-                                    <option value="Adhyayan">Adhyayan</option>
-                                    <option value="Rural Development">Rural Development</option>
-                                </select>
-                            </div>
-                            <div class="input">
-                                <input type="phone" placeholder="Phone Number" class="form-control" name="phone" id="phone" required/>
-                            </div>
-                            <div class="input">
-                                <input type="password" placeholder="Password" class="form-control" name="password" id="password" required/>
-                            </div>
-                            <div class="input">
-                                <input type="password" placeholder="Confirm password" class="form-control" name="confirm_password" id="confirm_password" required/>
-                            </div>
-                            <button type="submit" class="btn submit" name="signup" id="signup">SignUp</button>
-                            <div>
-                                <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Already have an Account?<strong><a href="login.php" style="margin-left:5px; margin-right:5px;font-size: 20px;">Login</a></strong>here</p>
-                            </div>
-                        </form>
-
+                        <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Already have an Account?<strong><a href="login.php" style="margin-left:5px; margin-right:5px;font-size: 20px;">Login</a></strong>here</p>
                     </div>
-                </div>
-            </section>
-                <!--End of Form-->
-                <!--Footer-->
-	
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+                </form>
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+            </div>
+        </div>
+    </section>
+    <!--End of Form-->
+    <iframe src="../footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Defining function for fixed header -->
+    <script>
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>    
 
 </body>
+
 </html>
