@@ -139,7 +139,10 @@ function validate_user_registration(){
 				$result=query($sql);
 				confirm($result);
 				set_message("<p class='bg-success text-center'>$name you have successfully registered your account. You can check your attendance after your account is activated by the core team.</p>");
+				redirect("login.php");
 				return json_encode("200");
+			} else {
+				echo validation_errors("Error occurred!");
 			}
 		 }
 
