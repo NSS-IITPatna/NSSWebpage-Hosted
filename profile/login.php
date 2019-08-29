@@ -72,7 +72,7 @@
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="../">Home</a></li>
+                        <li ><a href="../">Home</a></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved<i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu">
@@ -91,13 +91,15 @@
                                 <li><a href="../cells/cells.html?cell=chetna">Chetna</a></li>
                                 <li><a href="../cells/cells.html?cell=teaching">Teaching</a></li>
                                 <li><a href="../cells/cells.html?cell=environment">Environmental</a></li>
+                                <li><a href="../prayatna/prayatna.html">Prayatna</a></li>
                             </ul>
                         </li>
-                        <li><a href="../prayatna/prayatna.html">Prayatna</a></li>
+                        <li><a href="../team.html">Our Team</a></li>
                         <li><a href="../events.html">Events</a></li>
                         <li><a href="../portfolio.html">Gallery</a></li>
                         <li><a href="../think_thank.html">Think-Thank</a></li>
-                        <li><a href="../profile/login.php">Check-Hours</a></li>
+                        <li class="active"><a href="../profile/login.php">Check-Hours</a></li>
+                        <li><a href="../blood_request.php">Blood Request</a></li>
 
                     </ul>
                 </div>
