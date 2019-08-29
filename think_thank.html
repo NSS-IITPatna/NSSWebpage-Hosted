@@ -59,8 +59,8 @@
 </head>
 <!--/head-->
 
-<body class="homepage" style="background:url('images/mainNSS/thinkthank.jpg');background-repeat: no-repeat;background-size: 100% 100%">
-    <header id="header">
+<body class="homepage">
+    <header id="header" class="sticky">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -80,26 +80,28 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved<i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu">
                               <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="team.html">Our Team</a></li>
                               <li><a href="faq.html">Faqs</a></li>
                               <li><a href="https://docs.google.com/document/d/1EgpxEHza7NJGcw6CV3m7fv25ZJsbJpALqj1VH3ZOTl8/edit" target="_blank">Rules & Policies</a></li>
                           </ul>
                         </li>
                          <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cells <i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Units <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
+                                <li><a href="adhyayan.html">Adhyayan</a></li>
                                 <li><a href="cells/cells.html?cell=technical">Technical Skills</a></li>
                                 <li><a href="cells/cells.html?cell=rural">Rural Development</a></li>
                                 <li><a href="cells/cells.html?cell=chetna">Chetna</a></li>
                                 <li><a href="cells/cells.html?cell=teaching">Teaching</a></li>
                                 <li><a href="cells/cells.html?cell=environment">Environmental</a></li>
+                                <li><a href="prayatna/prayatna.html">Prayatna</a></li>
                             </ul>
                         </li>
-                         <li><a href="prayatna/prayatna.html">Prayatna</a></li>
-                          <li><a href="events.html">Events</a></li>
-                       <li><a href="portfolio.html">Gallery</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="portfolio.html">Gallery</a></li>
                         <li class="active"><a href="think_thank.html">Think-Thank</a></li>
-                        <li><a href="login.html">Check-Hours</a></li>
+                        <li><a href="https://nssiitp.000webhostapp.com/profile/login.php">Check-Hours</a></li>
+                        <li><a href="https://nssiitp.000webhostapp.com/blood_request.php">Blood Request</a></li>
                        
                     </ul>
                 </div>
@@ -107,51 +109,53 @@
             <!--/.container-->
         </nav>
         <!--/nav-->
-          <marquee style="color:white;font-size=:18px;"scrollamount="10">Now you can send feedback or suggest ideas anonymously.</marquee>
-    </header>  
+       </header>  
     <!--/header-->
-
-    <div class="container" style="margin-top:7px; padding-bottom: 20px;">
-	  	<div class="thinking" style="background:#fff;box-shadow: 0 1px 1px #000;border-radius:5px;margin-left:auto;margin-right:auto;">
-	  		<div class="row" style="padding:3px;box-shadow:0 1px 1px #999"><br /><font style="font-size:30px;font-family:Lato;letter-spacing:10px; color: #009688; "><center><i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>THINK-THANK</center></font></div>
-            <form action="#" name="loginform" method="post" accept-charset="utf-8" id="ThinkThankForm">
-		  		<div class="form-horizontal" style="padding:5px;padding-left:30px;padding-right:30px;">
-	  		<br><br>
+   
+    <div class="container" style="padding-bottom: 20px;background:url('images/mainNSS/thinkthank.jpg');background-repeat: no-repeat;background-size: 100% 100%;width:100%;height:100%">
+      <marquee style="color:white;font-size:18px;"scrollamount="10">Now you can send feedback or suggest ideas anonymously.</marquee>
+   
+      <div class="thinking" style="background:#fff;;box-shadow: 0 1px 1px #000;
+        border-radius:20px;margin: 0 auto;margin-bottom: 50px;margin-top:100px;width:600px !important">
+        <div class="row" style="padding:3px;padding-bottom:5px;box-shadow:0 1px 1px #999;width:100%;margin:0 auto"><br />
+          <font style="font-size:30px;font-family:Lato;letter-spacing:10px; color: #009688;"><center>
+          <i class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>THINK-THANK</center></font>
+        </div>
+          <form action="#" name="loginform" method="post" style="border:none;" accept-charset="utf-8" id="ThinkThankForm">
+		  		<div class="form-horizontal" style="padding : 50px;">
+	  		    <div class="row">
+              <h4 align="left" style="color: #009688;"><b>Name</b></h4>
+              <div class="row">
+                <input type="text" name="name" class="form-control" style="border-radius: 20px" placeholder="Enter your Name" id="TName">
+              </div>
+              <br/>
+            </div>
             <div class="row">
-				    	<h4 align="left"><b>Name</b></h4>
-				    <div class="row">
-				      	<input type="text" name="name" class="form-control"  placeholder="Enter your Name" id="TName">
-				     </div>
-					<br/>
-
+				    	<h4 align="left" style="color: #009688;"><b>Email</b></h4>
+				      <div class="row">
+				      	<input type="email" name="email" class="form-control" style="border-radius: 20px" placeholder="Enter your Email" id="TEmail">
+				      </div>
+					    <br/>
 				    </div>
-
-				  	<div class="row">
-				    	<h4 align="left"><b>Email</b></h4>
-				    <div class="row">
-				      	<input type="email" name="email" class="form-control"  placeholder="Enter your Email" id="TEmail">
-				     </div>
-					<br />
-				    </div>
             <div class="row">
-              <h4 align="left"><b>Phone Number</b></h4>
-            <div class="row">
-                <input type="phone" name="phone" class="form-control"  placeholder="Enter your Phone Number.." id="TPhone">
-             </div>
-          <br />
-
+              <h4 align="left" style="color: #009688;"><b>Phone Number</b></h4>
+              <div class="row">
+                <input type="phone" name="phone" class="form-control" style="border-radius: 20px" placeholder="Enter your Phone Number.." 
+                id="TPhone">
+              </div>
+              <br />
             </div>
 				    <div class="row">
-						<h4 align="left"><b>Thought</b><span style="color:#F70303;">*</span></h4>
-					</div>
-					<div class="row">
-						<textarea class="form-control" style="resize: none;width:100%" rows="5" placeholder="Express your thought here..." name="idea" id="TThought" required></textarea>
-					</div>
-					<br><br>
+						  <h4 align="left"><b style="color: #009688;">Thought</b><span style="color:#F70303;">*</span></h4>
+					  </div>
+					  <div class="row">
+						   <textarea class="form-control" style="resize: none;width:100%;border-radius:20px" rows="5" placeholder="Express your thought here..." name="idea" id="TThought" required></textarea>
+					  </div>
+					  <br><br>
            <div class="alert">Your idea/feedback has been sent to NSS IIT Patna Team.</div>
 					<div class="row">
-						<button align="right" class="btn btn-default pull-right" type="submit" onclick="ThankFunc();return(false);"><strong>THANK</strong></button>
-            <button align="right" class="btn btn-default pull-right" id="submit" type="submit" onclick="ThinkFunc();return(false);" ><strong>THINK</strong></button>
+						<button align="right" class="btn btn-default pull-right" style="background: #009688;margin: 10px" type="submit" onclick="ThankFunc();return(false);"><strong>THANK</strong></button>
+            <button align="right" class="btn btn-default pull-right" style="background: #009688;margin: 10px" id="submit" type="submit" onclick="ThinkFunc();return(false);" ><strong>THINK</strong></button>
 					</div>
 
           <div class="row" style="margin-top:1px;">
@@ -177,29 +181,17 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-     <script src="js/think_thank_submit.js"></script>
-    <!-- Defining function for fixed header -->
-        <script>
-        window.onscroll = function() {myFunction()};
-        var header = document.getElementById("header");
-        var sticky = header.offsetTop;
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-        </script>
+    <script src="js/think_thank_submit.js"></script>
 
-        <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 
 </html>

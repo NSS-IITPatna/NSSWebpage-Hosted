@@ -421,7 +421,6 @@ section h3.section-subheading {
 /*************************
 *******Header******
 **************************/
-
 #header .search {
     display: inline-block;
 }
@@ -616,7 +615,9 @@ input.search-form:hover {
 **************************/
 
 #main-slider {
-    position: relative;
+ height: calc(100vh - 87px);
+ margin-top: 87px;
+ position: relative;
 }
 
 .no-margin {
@@ -676,7 +677,7 @@ input.search-form:hover {
     position: absolute;
     width: 100%;
     display: block !important;
-    height: 730px;
+    height: calc(100vh - 87px);
     -webkit-transition: opacity ease-in-out 500ms;
     transition: opacity ease-in-out 500ms;
     display: -webkit-box !important;
@@ -887,17 +888,85 @@ input.search-form:hover {
     opacity: 1;
 }
 
+
+/***Cells***/
+.item-container{
+  height : 360px;
+  width: 260px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0,0.4),rgba(0, 0, 0,0.4));
+  transition: all 1s ease;
+    outline: 5px solid white;
+   margin : 50px;
+}
+.item-container p{
+padding-top : 20px;
+padding-bottom: 20px;
+color: white;
+
+
+}
+.item-container:hover p{
+color: rgb(0,175,240);
+}
+
+.item-img{
+    transition: all 1s ease;
+}
+.item-img:hover{
+   transform: scale(1.0);
+   opacity: 0.9;
+
+}
+.item-link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: #d3325f;
+  border-top: 3px solid #d3325f;
+  border-bottom: 3px solid #d3325f;
+  transition: all 1s ease;
+  opacity: 0;
+  font-size: 2rem;
+}
+.item-link h1{
+  color: #d3325f;
+    opacity: 0;
+}
+.item-container:hover .item-link{
+  opacity: 1;
+   color: #c9c1ac;
+  border: 3px solid #c9c1ac;
+  background: #c9c1ac;
+  color: #242424;
+}
+.item-link:hover{
+  color: #c9c1ac;
+  border: 3px solid #c9c1ac;
+  background: #c9c1ac;
+  color: #242424;
+}
+.item-container:hover{
+
+    outline: 10px solid black;
+    outline-offset: 0.8rem;
+    transform: scale(1.1);
+}
+
 .services-wrap {
     padding: 40px 30px;
     background: #fff;
     border-radius: 4px;
     margin: 0 0 40px;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 5s ease;
+    transition: 5s ease;
     color: #707070;
     font-size: 16px;
     line-height: 26px;
 }
+
 
 .services-wrap p:last-child {
     margin: 0;
