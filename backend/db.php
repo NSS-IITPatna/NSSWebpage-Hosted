@@ -1,6 +1,6 @@
 <?php
 
-$con =mysqli_connect('localhost','atm1504','11312113','nss');
+$con =mysqli_connect('localhost','nsslibkv','W7?*I0#1Ip6^^mAw','nssiibkv_nss');
 
 //Count no of rows in the query result
 function row_count($result){
