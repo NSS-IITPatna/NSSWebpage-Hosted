@@ -74,13 +74,13 @@ function validate_user_registration(){
 	if($_SERVER['REQUEST_METHOD']=="POST"){
 		$errors=[];
 
-		$name=escape(clean($_POST['name']));
- 		$phone=escape(clean($_POST['phone']));
- 		$unit=escape(clean($_POST['unit']));
- 		$email=escape(clean($_POST['email']));
- 		$password=escape(clean($_POST['password']));
- 		$confirm_password=escape(clean($_POST['confirm_password']));
-		$rollno=escape(clean($_POST['rollno']));
+		$name=clean($_POST['name']);
+ 		$phone=clean($_POST['phone']);
+ 		$unit=clean($_POST['unit']);
+ 		$email=clean($_POST['email']);
+ 		$password=clean($_POST['password']);
+ 		$confirm_password=clean($_POST['confirm_password']);
+		$rollno=clean($_POST['rollno']);
 
 		if(empty($name)){
 			$errors[]="Name field cannot be empty.";
@@ -152,8 +152,8 @@ function validate_user_registration(){
 function validate_login(){
 	if($_SERVER['REQUEST_METHOD']=="POST"){
 		$errors=[];
-		$rollno=escape(clean($_POST['rollno']));
-		$password=escape(clean($_POST['password']));
+		$rollno=clean($_POST['rollno']);
+		$password=clean($_POST['password']);
 		$password=sha1($password);
 
 		$sql ="SELECT id FROM users WHERE rollno='$rollno' AND password='$password'";
@@ -223,12 +223,12 @@ function logged_in(){
 
 function blood_request(){
 	if($_SERVER["REQUEST_METHOD"]=="POST"){
-		$name=escape(clean($_POST["BName"]));
-		$roll=escape(clean($_POST["BRoll"]));
-		$email=escape(clean($_POST["BEmail"]));
-		$phone=escape(clean($_POST["BPhone"]));
-		$for_whom=escape(clean($_POST["BForWhom"]));
-		$address=escape(clean($_POST["BAddress"]));
+		$name=clean($_POST["BName"]);
+		$roll=clean($_POST["BRoll"]);
+		$email=clean($_POST["BEmail"]);
+		$phone=clean($_POST["BPhone"]);
+		$for_whom=clean($_POST["BForWhom"]);
+		$address=clean($_POST["BAddress"]);
 		$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/google-service-account.json');
 
 		$subject="Blood Request from NSS";
