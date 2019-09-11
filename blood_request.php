@@ -1,4 +1,4 @@
-<?php include("backend/init.php"); ?>
+<?php include("./backend/init.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -100,8 +100,8 @@
                       <li><a href="events.html">Events</a></li>
                       <li><a href="portfolio.html">Gallery</a></li>
                       <li><a href="think_thank.html">Think-Thank</a></li>
-                      <li><a href="login.html">Check-Hours</a></li>
-                      <li><a href="blood_request.php">Blood Request</a></li>
+                      <li><a href="./profile/login.php">Check-Hours</a></li>
+                      <li><a href="./blood_request.php">Blood Request</a></li>
                   </ul>
               </div>
           </div>
@@ -119,7 +119,7 @@
 <!--Form start here-->
     <div class="container-contact100">
       <div class="wrap-contact100">
-      
+      <div class="alert" style="display:Block"><?php blood_request() ?></div>
         <form class="contact100-form validate-form" id="bloodRequestForm" method="post">
           <span class="contact100-form-title">
             Request Blood
@@ -160,7 +160,6 @@
             <textarea class="input100" name="BAddress" placeholder="Write your address here..." id="BAddress" required></textarea>
             <span class="focus-input100"></span>
           </div>
-          <div class="alert" style="display:Block"><?php blood_request() ?></div>
 
           <div class="container-contact100-form-btn">
             <div class="wrap-contact100-form-btn">

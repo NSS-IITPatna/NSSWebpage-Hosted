@@ -223,12 +223,12 @@ function logged_in(){
 
 function blood_request(){
 	if($_SERVER["REQUEST_METHOD"]=="POST"){
-		$name=escape(clean($_POST["BName"]));
-		$roll=escape(clean($_POST["BRoll"]));
-		$email=escape(clean($_POST["BEmail"]));
-		$phone=escape(clean($_POST["BPhone"]));
-		$for_whom=escape(clean($_POST["BForWhom"]));
-		$address=escape(clean($_POST["BAddress"]));
+		$name=clean($_POST["BName"]);
+		$roll=clean($_POST["BRoll"]);
+		$email=clean($_POST["BEmail"]);
+		$phone=clean($_POST["BPhone"]);
+		$for_whom=clean($_POST["BForWhom"]);
+		$address=clean($_POST["BAddress"]);
 		$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/google-service-account.json');
 
 		$subject="Blood Request from NSS";
