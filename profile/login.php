@@ -98,7 +98,7 @@
                         <li><a href="../events.html">Events</a></li>
                         <li><a href="../portfolio.html">Gallery</a></li>
                         <li><a href="../think_thank.html">Think-Thank</a></li>
-                        <li class="active"><a href="../profile/login.php">Check-Hours</a></li>
+                        <li class="active"><a href="./login.php">Check-Hours</a></li>
                         <li><a href="../blood_request.php">Blood Request</a></li>
 
                     </ul>
@@ -127,7 +127,7 @@
                 </div>
                 <button type="submit" class="btn submit" name="login" id="login">Login</button>
                 <div>
-                    <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Don't have an Account?<strong><a href="signup.php" style="margin-left:5px; margin-right:5px;font-size: 20px;">SignUp</a></strong>here</p>
+                    <p style="letter-spacing: 1px; padding-top: 10px;padding-bottom: 20px !important;font-size:15px;">Don't have an Account?<strong><a href="./signup.php" style="margin-left:5px; margin-right:5px;font-size: 20px;">SignUp</a></strong>here</p>
                 </div>
             </form>
         </div>
