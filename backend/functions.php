@@ -243,7 +243,7 @@ function blood_request(){
 			<h5>Address : $address</h5>
 		";
 		$header="From: nss@iitp.ac.in";
-		$send_to ="hayyoulistentome@gmail.com";
+		$send_to ="nss@iitp.ac.in";
 
 		if (send_email($send_to,$subject,$msg,$header)){
 			// echo "Your request has been sent to team NSS Team IIT Patna";
