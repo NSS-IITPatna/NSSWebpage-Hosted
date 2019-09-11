@@ -223,12 +223,12 @@ function logged_in(){
 
 function blood_request(){
 	if($_SERVER["REQUEST_METHOD"]=="POST"){
-		$name=escape(clean($_POST["BName"]));
-		$roll=escape(clean($_POST["BRoll"]));
-		$email=escape(clean($_POST["BEmail"]));
-		$phone=escape(clean($_POST["BPhone"]));
-		$for_whom=escape(clean($_POST["BForWhom"]));
-		$address=escape(clean($_POST["BAddress"]));
+		$name=clean($_POST["BName"]);
+		$roll=clean($_POST["BRoll"]);
+		$email=clean($_POST["BEmail"]);
+		$phone=clean($_POST["BPhone"]);
+		$for_whom=clean($_POST["BForWhom"]);
+		$address=clean($_POST["BAddress"]);
 		$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/google-service-account.json');
 
 		$subject="Blood Request from NSS";
@@ -243,7 +243,7 @@ function blood_request(){
 			<h5>Address : $address</h5>
 		";
 		$header="From: nss@iitp.ac.in";
-		$send_to ="nss@iitp.ac.in";
+		$send_to ="hayyoulistentome@gmail.com";
 
 		if (send_email($send_to,$subject,$msg,$header)){
 			// echo "Your request has been sent to team NSS Team IIT Patna";
