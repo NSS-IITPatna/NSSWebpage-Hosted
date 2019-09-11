@@ -101,7 +101,7 @@
                       <li><a href="portfolio.html">Gallery</a></li>
                       <li><a href="think_thank.html">Think-Thank</a></li>
                       <li><a href="login.html">Check-Hours</a></li>
-                      <li><a href="blood_request.php">Blood Request</a></li>
+                      <li><a href="./blood_request.php">Blood Request</a></li>
                   </ul>
               </div>
           </div>
