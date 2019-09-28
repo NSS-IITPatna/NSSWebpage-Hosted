@@ -77,8 +77,8 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved<i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu">
                               <li><a href="../about-us.html">About Us</a></li>
-                              <li><a href="../team.html">Our Team</a></li>
                               <li><a href="../faq.html">Faqs</a></li>
+                              <li><a href="./mag.html">Magazine 2k18-19</a></li>
                               <li><a href="https://docs.google.com/document/d/1EgpxEHza7NJGcw6CV3m7fv25ZJsbJpALqj1VH3ZOTl8/edit" target="_blank">Rules & Policies</a></li>
                           </ul>
                         </li>
@@ -157,7 +157,7 @@
         </div>
     </section>
     <!--End of Form-->
-    <iframe src="../footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+   <iframe src="./../footer.html" frameborder="0" style="width: 100%; height:32vh"></iframe>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
