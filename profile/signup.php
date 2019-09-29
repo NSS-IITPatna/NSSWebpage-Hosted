@@ -133,6 +133,7 @@
                             <label class="mr-sm-2" required></label>
                             <option value="" disabled selected>Unit Name..<h1 style="color:black !important;" ><i class="fas fa-caret-down fa-0.5x"></i></h1></option>
                             <option value="Environment">Environment</option>
+                            <option value="BTech18">BTech18</option>
                             <option value="Chetna">Chetna</option>
                             <option value="Adhyayan">Adhyayan</option>
                             <option value="Rural Development">Rural Development</option>

@@ -184,7 +184,7 @@
 
     <div class="footer">
         <div class="container">
-             Made with <i class="fa fa-heart heart"></i> by <a href="https://www.facebook.com/atm1504">Web Dev Team</a>
+             Made with <i class="fa fa-heart heart"></i> by <a href="https://www.facebook.com/nss.iitp/">Web Dev Team</a>
         </div>
     </div>
 
