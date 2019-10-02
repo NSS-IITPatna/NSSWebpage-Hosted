@@ -81,6 +81,7 @@
                               <li><a href="about-us.html">About Us</a></li>
                               <li><a href="team.html">Our Team</a></li>
                               <li><a href="faq.html">Faqs</a></li>
+                              <li><a href="./mag.html">Magazine 2k18-19</a></li>
                               <li><a href="https://docs.google.com/document/d/1EgpxEHza7NJGcw6CV3m7fv25ZJsbJpALqj1VH3ZOTl8/edit" target="_blank">Rules & Policies</a></li>
                           </ul>
                       </li>
@@ -175,7 +176,7 @@
         </form>
       </div>
     </div>
-    <iframe src="footer.html" frameborder="0" scrolling="no" style="width: 100%"></iframe>
+   <iframe src="footer.html" frameborder="0" style="width: 100%; height:32vh"></iframe>
 
       <!--===============================================================================================-->
       	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>

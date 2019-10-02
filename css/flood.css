@@ -1,0 +1,9 @@
+body {
+
+    background-image: url("art-canvas-colors-288099.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
