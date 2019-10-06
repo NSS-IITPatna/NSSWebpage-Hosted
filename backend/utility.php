@@ -12,12 +12,12 @@ function send_email($email,$subject,$msg,$headers){
 	$mail->isSMTP();                                      // Set mailer to use SMTP
 	$mail->Host = 'tls://smtp.gmail.com';  // Specify main and backup SMTP servers
 	$mail->SMTPAuth = true;                               // Enable SMTP authentication
-	$mail->Username = "";                 // SMTP username
-	$mail->Password = "";                           // SMTP password
+	$mail->Username = "dscappsocietyiitp@gmail.com";                 // SMTP username
+	$mail->Password = "appified@1504";                           // SMTP password
 	$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 	$mail->Port = 587;                                    // TCP port to connect to
 
-	$mail->setFrom('', 'NSS-IITPatna');
+	$mail->setFrom('nss@gmail.com', 'NSS-IITPatna');
 	$mail->addAddress($email);     // Add a recipient
 	//$mail->addAddress('ellen@example.com');               // Name is optional
 	$mail->addReplyTo('nss@gmail.com', 'Information');
