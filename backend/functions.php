@@ -165,42 +165,9 @@ function validate_login(){
 			if(row_count($result1)){
 				$row = fetch_array($result1);
 				$unit = $row['unit'];
-				$reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
-            		$spreadsheet = $reader->load("../attendance.xlsx");
-				$sheetData = $spreadsheet->getSheetByName($unit)->toArray();
-
-				$arrayName=$sheetData;
-				$rowSize = count( $arrayName );
-				$columnSize = max( array_map('count', $arrayName) );
-
-				for($x=3; $x<=$rowSize; $x++){
-					if(strtolower($sheetData[$x][1])==strtolower($rollno)){
-						$rowNo = $x;
-						break;
-					}
-				}
-				// echo $rowNo;
-				$total_hour = $sheetData[$rowNo][2];
-				$attendance = array();
-
-				for($y=$columnSize; $y>=4; $y--){
-					if(!empty($sheetData[$rowNo][$y])){
-						$subAttendance=array();
-						$subAttendance['hour']=$sheetData[$rowNo][$y];
-						$subAttendance['date'] = $sheetData[0][$y];
-						$subAttendance['activity'] = $sheetData[1][$y];
-						$attendance[]=$subAttendance;
-					}
-				}
-				$response = array();
-				$response['attendance']=$attendance;
-
-				$_SESSION['rollno']=$rollno;
-				$_SESSION['name']=$sheetData[$rowNo][0];
+				$_SESSION['logged_in']=true;
 				$_SESSION['unit']=$unit;
-				$_SESSION['phone']=$sheetData[$rowNo][2];
-				$_SESSION['total_hour']=$total_hour;
-				$_SESSION['attendance']=json_encode($response);
+				$_SESSION['rollno']=$rollno;
 
 				redirect("profile.php");
 			}else{
@@ -210,6 +177,49 @@ function validate_login(){
 			echo validation_errors("Please enter correct credentials.");
 		}
 	}
+}
+
+function getHours(){
+	$unit = $_SESSION['unit'];
+	$rollno=$_SESSION['rollno'];
+	$reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+		$spreadsheet = $reader->load("../attendance.xlsx");
+	$sheetData = $spreadsheet->getSheetByName($unit)->toArray();
+
+	$arrayName=$sheetData;
+	$rowSize = count( $arrayName );
+	$columnSize = max( array_map('count', $arrayName) );
+
+	for($x=3; $x<=$rowSize; $x++){
+		if(strtolower($sheetData[$x][1])==strtolower($rollno)){
+			$rowNo = $x;
+			break;
+		}
+	}
+	// echo $rowNo;
+	$total_hour = $sheetData[$rowNo][2];
+	$attendance = array();
+
+	for($y=$columnSize; $y>=4; $y--){
+		if(!empty($sheetData[$rowNo][$y])){
+			$subAttendance=array();
+			$subAttendance['hour']=$sheetData[$rowNo][$y];
+			$subAttendance['date'] = $sheetData[0][$y];
+			$subAttendance['activity'] = $sheetData[1][$y];
+			$attendance[]=$subAttendance;
+		}
+	}
+	$response = array();
+	$response['attendance']=$attendance;
+
+	$_SESSION['rollno']=$rollno;
+	$_SESSION['name']=$sheetData[$rowNo][0];
+	$_SESSION['unit']=$unit;
+	$_SESSION['phone']=$sheetData[$rowNo][2];
+	$_SESSION['total_hour']=$total_hour;
+	$_SESSION['attendance']=json_encode($response);
+
+
 }
 
 function logged_in(){

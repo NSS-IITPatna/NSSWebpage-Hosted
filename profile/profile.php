@@ -2,6 +2,7 @@
 <?php if(!logged_in()){
     redirect("login.php");
     }?>
+    <?php getHours()?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -106,6 +107,10 @@
                                                 <h4><b>HOURS LEFT</b></h4>	<h6 id="hours"><?php 
                                                     $hour_done=(float)$_SESSION['total_hour'];
                                                     $hour_left=80.00-$hour_done;
+                                                    $rollno=$_SESSION['rollno'];
+                                                    if(strpos($rollno,"1801")!==false){
+                                                        $hour_left=60.00-$hour_done;
+                                                    }
                                                     if($hour_left>0){
                                                         echo $hour_left;
                                                     }else{
@@ -184,7 +189,7 @@
 
     <div class="footer">
         <div class="container">
-             Made with <i class="fa fa-heart heart"></i> by <a href="https://www.facebook.com/nss.iitp/">Web Dev Team</a>
+             Made with <a href="https://www.facebook.com/atm1504/" target="_blank"><i class="fa fa-heart heart"></i> by Web Dev Team</a>
         </div>
     </div>
 
