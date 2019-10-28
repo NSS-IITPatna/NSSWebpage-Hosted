@@ -256,17 +256,31 @@
       }
     }
   },
-  "events" : [
-      {
+  "events" : [{
+    "active" : "1",
+    "date" : "23rd October, 2019",
+    "details" : "A person must be taught the importance of cleanliness from the childhood by parents and teachers. One such responsibility was taken today on 23rd october by NSS IIT Patna in association with East Central Railway Danapur Division to spread awareness on the railway station of Bihta.",
+    "flink" : "https://www.facebook.com/nss.iitp/posts/339933873494722?__tn__=-R",
+    "id" : "1",
+    "img_url" : "images/events/3.jpg",
+    "subheading" : "Swachta Hi Seva"
+  },{
+    "active" : "1",
+    "date" : "19th October, 2019",
+    "details" : "'The eye is the lamp of the body. So if your eye is healthy your body will be full of light.' Following the same, IIT Patna in collaboration with Sarvadrishti Hospital organized an eye check-up camp on 19 October 2019 at IIT Patna Hospital .",
+    "flink" : "https://www.facebook.com/nss.iitp/posts/336988687122574?__tn__=-R",
+    "id" : "2",
+    "img_url" : "images/events/eye.jpg",
+    "subheading" : "Eye Checkup Camp"
+  }, {
     "active" : "1",
     "date" : "6th October, 2019",
     "details" : "We the NSS team of IIT Patna would like to express gratitude towards the everyone throughout the globe who enthusiastically donated to the Chief Minister of Bihar relief fund. Your efforts would obviously count and help the needful who have been struck by such disaster.",
     "flink" : "https://www.facebook.com/nss.iitp/photos/a.170579480430163/326115321543244/?type=3&permPage=1",
     "id" : "1",
     "img_url" : "images/events/bihar_flood.jpg",
-    "subheading" : "Bihar Flood DOnation"
-  },
-  {
+    "subheading" : "Bihar Flood Donation"
+  }, {
     "active" : "1",
     "date" : "2nd October, 2019",
     "details" : "Plastic are a major cause of serious problems such as water and air.Keeping in mind NSS IIT Patna launches an event of short film making competition on 2nd of october with a motive to ban the  use of plastics..",
@@ -274,8 +288,7 @@
     "id" : "2",
     "img_url" : "images/events/plastic_ban.jpg",
     "subheading" : "Plastic Ban"
-  },
-    {
+  }, {
     "active" : "1",
     "date" : "2nd October, 2019",
     "details" : "On the occasion of 150th birth anniversary of our beloved bapu, NSS IIT Patna conducted a series of competitions including 'short filmmaking', 'story writing' and 'a minute for bapu speech' to remember and inculcate in us the high ideals which Gandhiji stood up for.",
@@ -283,8 +296,7 @@
     "id" : "1",
     "img_url" : "images/events/gandhi.jpg",
     "subheading" : "Gandhi Jayanti"
-  },   
-  {
+  }, {
     "active" : "1",
     "date" : "1st October, 2019",
     "details" : "Review meetings provide an opportunity for the team member to have time with their reviewer: To discuss their performance and development. To discuss and agree future targets and objectives so to access all these NSS IIT patna organised a small formal meeting on 1st October at BIT Patna",
@@ -292,8 +304,7 @@
     "id" : "2",
     "img_url" : "images/events/review_meeting.jpg",
     "subheading" : "NSS Review Meeting"
-  },
-    {
+  }, {
     "active" : "1",
     "date" : "7th, 8th, 15th September, 2019",
     "details" : "Cleanliness begins at home. Keeping this in mind, NSS IIT Patna successfully conducted cleanliness drive—'swachhta pakhwada' on 7th, 8th and 15th September with the vision to make the campus clean and pollution free. The event saw large participation and enthusiasm.",
@@ -301,8 +312,7 @@
     "id" : "1",
     "img_url" : "images/events/swachta.jpg",
     "subheading" : "Swachta Pakhwada"
-  },
-  {
+  }, {
     "active" : "1",
     "date" : "14th September, 2019",
     "details" : "हम गर्व से कहा करते हैं 'हिंदी हमारी राजभाषा है, हम सबकी यह अभिलाषा है' आज हिंदी दिवस के अवसर पर एन.एस.एस., आई. आई. टी. पटना अपनी राजभाषा को परम स्थान पर रखता है। हर भारतीय के दिल में बसी इस भाषा को दुनिया के हर कोने तक ले जाने का जुनून हम पे सवार है। हमारी संस्कृति को दर्शाती हिंदी भाषा के दिवस पर एन.एस.एस., आई. आई. टी. पटना सबको शुभकामनाए देता है।",
@@ -350,8 +360,7 @@
     "id" : "1",
     "img_url" : "images/events/iplant.jpg",
     "subheading" : "Plantation Drive"
-  },
-  {
+  }, {
     "active" : "1",
     "date" : "2nd August, 2019",
     "details" : "To make new students aware about NSS, it's Induction program was conducted on  3 August 2019 for BTech batch of 2019. The program aimed at providing information about the various actives undertaken by NSS and it's various cells. It was followed by a QnA session where students showed large participation.",
@@ -359,8 +368,7 @@
     "id" : "2",
     "img_url" : "images/events/induction.jpg",
     "subheading" : "Induction Program"
-  },
-  {
+  }, {
     "active" : "1",
     "date" : "21st June, 2019",
     "details" : "Yoga helps us in developing physical,mental and intellectual personality. it also makes us strong and peaceful so NSS of IIT PATNA organised in Amhara village on the occasion of international yoga day,21 June 2019.",
@@ -368,8 +376,7 @@
     "id" : "1",
     "img_url" : "images/events/yoga.jpg",
     "subheading" : "International Yoga Day"
-  },
-  {
+  }, {
     "active" : "1",
     "date" : "8-10th May, 2019",
     "details" : "A Graduation Drive was conducted from 8 may 2019 to 10 May 2019 in the campus which aimed to collect some stuff like bedsheets, buckets, books etc from the final year students and to pass it on to the needy . The cooperation and sense of service of the students made the programme a successfull one.\nNSS wishes them a great future ahead!",
