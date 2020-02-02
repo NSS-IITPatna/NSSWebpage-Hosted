@@ -128,9 +128,13 @@
 
             // Would write the value of the QueryString-variable called name to the console
             query = getQueryStringValue("cell");
-            $.getJSON('https://webpage-events-cells.firebaseio.com/cells/' + query + '/.json')
+            $.getJSON('https://nss.iitp.ac.in/events-cells.json')
                 .then((data) => {
-                    var dt = data;
+                    var cells = data.cells;
+                    var cell=cells[query];
+                    var dt = cell;
+                    console.log(dt);
+
                     $('.header1 h1').text(dt.header);
                     $('.header1 p').html(dt.header_text);
                     $('.header1').css('background-image', 'url("' + dt.image_url + '")');
@@ -147,7 +151,7 @@
                     })
 
                     /*section 2*/
-                    var sec = dt.section_aims;
+                   var sec = dt.section_aims;
                     $('.section-2').css('background-image', 'url("' + sec.section_image_url + '")');
                     $('.section-2 .heading-1').text(sec.header);
                     $('.section-2 .para-1').text(sec.sub_header);
@@ -159,7 +163,6 @@
 
                     /*section 3*/
                     $('.section-3 iframe').attr("src", query + ".html");
-
 
                     function preloader() {
                         var loader = document.getElementById("loader");
@@ -177,7 +180,7 @@
                         loadNow(1);
                     }
                     preloader();
-                })
+                });
 
         });
     </script>
