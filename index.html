@@ -67,7 +67,9 @@
 </head>
 <!--/head-->
 
-<body class="homepage">
+<body class="homepage" style="width: 100%;">
+
+    
     <header id="header" class="sticky">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
@@ -590,6 +592,95 @@
         </div>
     </section>
 
+    <main id="barba-wrapper" class="main">
+        <div class="barba-container" data-namespace="prism">
+          <!-- font awesome link for hot reload -->
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    
+          <div class="home-wrapper">
+            <style>
+                .njath{
+                  position: absolute;
+                  bottom: 10px;
+                  right: 10px;
+                  z-index: 9999;
+                  background: rgb(51, 153, 255);
+                  color: #fff;
+                  padding: 10px;
+                  border: 5px solid #fff;
+                  border-radius: 10px;
+                  box-shadow: 0px 5px 10px rgba(255,255,255,.5);
+                }
+                .njath:hover{
+                  color: #fff;
+                }
+                @media(max-width: 500px){
+                  .njath{
+                    display: none;
+                  }
+                }
+              </style>
+                <!--  -->
+                <div class="box-blur">
+                </div>
+                <div class="box-content" >
+                <span class="cross"><i class="fas fa-times fa-3x"></i></span>
+                <img src="./images/aboutUs/janata_curfew.gif" width="100%" height="100%" style="object-fit: fill">
+                </div>
+
+                <style>
+                .box-blur{
+                    display: none;
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    width: 100%;
+                    height: 100%;
+                    background: #fff;
+                    filter: blur(1000px);
+                    -webkit-filter: blur(1000px);
+                    z-index: 9999;
+                }
+                .box-content{
+                    display: none;
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50% , -50%) ;
+                    width: 50%;
+                    height:80%;
+                    background: rgba(0,0,0,.75);
+                    border-radius: 20px;
+                    box-shadow: 0px 5px 10px rgba(0,0,0,.8);
+                    z-index: 9999;
+                }
+                .cross{
+                    position: absolute;
+                    top: calc(0% - 20px);
+                    right: calc(0% - 10px);
+                    cursor: pointer;
+                }
+                .content{
+                    padding: 10px;
+                    margin: 10px;
+                    height: 300px;
+                    overflow-y: scroll;
+                }
+                @media(max-width: 500px){
+                    .box-content{
+                    width: 75%;
+                    transform: translate(-50% , -50%) ;
+                    }
+                    .content{
+                    height: 400px;
+                    overflow-y: scroll;
+                }
+                }
+                </style>
+          </div>
+        </div>
+    </main>
+
 
     <!--/#partner-->
 
@@ -601,6 +692,26 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- dialog box scripts -->
+  <script>
+    var boxBlur=document.querySelector('.box-blur');
+    var boxContent=document.querySelector('.box-content');
+    boxBlur.style.display="block";
+    boxContent.style.display="block";
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${window.scrollY}px`;
+    
+    var cross=document.querySelector('.cross');
+    cross.addEventListener('click', () => {
+      boxBlur.style.display="none";
+      boxContent.style.display="none";
+      const scrollY = document.body.style.top;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1);
+    })
+  </script>
 
     <!-- Defining function for fixed header -->
     <script>
