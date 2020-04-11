@@ -1,3 +1,81 @@
+<?php
+
+
+
+session_start();
+$errors = [];
+
+if(isset($_POST['submit'])){
+
+	$username=$_POST['username'];
+	$email=$_POST['email'];
+	$college=$_POST['college'];
+	$phone=$_POST['phone'];
+    $mysqli =  mysqli_connect('localhost','root','','quiz');
+	if(strlen($username)<5){
+	 		$errors[]="Your  name cannot be less than 5";
+	 	}
+
+	 	if(strlen($phone)<10){
+	 		$errors[]="Your phone number cannot be less than 10 digits.";
+	 	}
+
+	 	if (empty($_POST['college'])) {
+        $errors['college'] = 'College name required';
+
+	 	}
+	 	if(strlen($phone)>10){
+	 		$errors[]="Your phone number cannot have more than 10 digits.";
+	 	}
+	 	// Check if email already exists
+    $sql = "SELECT * FROM users WHERE email='$email' LIMIT 1";
+    $result = mysqli_query($mysqli, $sql);
+    if (mysqli_num_rows($result) > 0) {
+        $errors['email'] = "Email already exists";
+    }
+	 	
+	 	if (count($errors) === 0){
+	 		
+	 		//sanitise data
+	 		$username=$mysqli->real_escape_string($username);
+	 		$email=$mysqli->real_escape_string($email);
+	 		$college=$mysqli->real_escape_string($college);
+	 		$phone=$mysqli->real_escape_string($phone);
+	 		//generate link
+            
+	 		$link=sha1($email.microtime());
+	 		//insert data
+            $insert= $mysqli->query("INSERT INTO users (username,email,college,phone,link)
+             VALUES('$username','$email','$college','$phone','$link')");
+	 		
+
+	 		if($insert){
+
+
+	 			//send email
+                
+	 			$subject="Activate quiz link";
+		        $msg="<p>
+		    You have successfully created an Account. 
+		    Please click the link below to activate your quiz page.
+		    <a href='http://nss.iitp.ac.in/quiz/index.php/$link/'>http://nss.iitp.ac.in/quiz/index.php/$link/
+		    </a>
+		    </p>
+
+		     ";
+		    $headers="From: noreply@yourwebsite.com";
+            send_email($email,$subject,$msg,$headers);
+            header('location:thankyou.php');
+
+	 		}
+
+	 	}
+
+        
+	 	
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -228,7 +306,15 @@
         </style>
     </head>
 
-    <body>
+    <body><?php if (count($errors) > 0): ?>
+  <div class="alert alert-danger">
+    <?php foreach ($errors as $error): ?>
+    <li>
+      <?php echo $error; ?>
+    </li>
+    <?php endforeach;?>
+  </div>
+<?php endif;?>
                
         <div class="back"></div>
         
@@ -240,30 +326,37 @@
             <h1>Register for the quiz here!!</h1>
             <p>Fill in all informations</p>
         </header>
-        <form>
+        
+
+        <form  method="POST" action="">
+
             <div class="input-section name-section">
-            <input class="name" type="name" placeholder="ENTER YOUR NAME HERE" autocomplete="off"/>
+            <input class="name" type="name" name="username" placeholder="ENTER YOUR NAME HERE" autocomplete="off"/>
             <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-user"></i></span><span class="next-button name"><i class="fa fa-arrow-up"></i></span></div>
             </div>
             <div class="input-section email-section folded">
-            <input class="email" type="email" placeholder="ENTER YOUR E-MAIL HERE" autocomplete="off"/>
+            <input class="email" type="email" name="email"placeholder="ENTER YOUR E-MAIL HERE" autocomplete="off"/>
             <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button email"><i class="fa fa-arrow-up"></i></span></div>
             </div>
             <div class="input-section college-section folded">
-            <input class="college" type="college" placeholder="ENTER YOUR COLLEGE HERE"/>
+            <input class="college" type="college" name="college" placeholder="ENTER YOUR COLLEGE HERE"/>
             <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-university"></i></span><span class="next-button college"><i class="fa fa-arrow-up"></i></span></div>
             </div>
             <div class="input-section ph-no-section folded">
-            <input class="ph-no" type="ph-no" placeholder="ENTER YOUR PHONE NUMBER HERE"/>
+            <input class="ph-no" type="ph-no" name="phone" placeholder="ENTER YOUR PHONE NUMBER HERE"/>
+
+            
             <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-phone"></i></span><span class="next-button ph-no"><i class="fa fa-paper-plane"></i></span></div>
             </div>
             <div class="success"> 
-            <input class="ph-no" type="submit" name="submit" value="register" required/>
+            <input class="ph-no" type="submit" name="submit" value="REGISTER" required/>
             </div>
         </form>
         </div>
-
+        
+       
         <script>
+
             $(".name").on("change keyup paste", function () {
             if ($(this).val()) {
                 $(".icon-paper-plane").addClass("next");
@@ -333,5 +426,7 @@
             });
 
         </script>
+
+
     </body>
 </html>

@@ -205,7 +205,7 @@
 
     <script>
         $.ajax({
-            url: 'https://nss.iitp.ac.in/events-cells.json',
+            url: 'http://nss.iitp.ac.in/events-cells.json',
             type: 'GET',
             dataType: "json",
             success: displayAll
@@ -224,8 +224,10 @@
                     } else {
                         x += "<li class='timeline-inverted'><a href='" + datas.flink + "'> <div class='timeline-image'><img class=' rounded-circle img-fluid img_url' src=" + datas.img_url + " alt=''></div></a><div class='timeline-panel'><div class='timeline-heading'><h4 class='date'>" + datas.date + "</h4><h4 class='subheading'>" + datas.subheading + "</h4></div><div class='timeline-body'><p class='details'>" + datas.details + "</p></div></div></li>";
                     }
-                }
-            }
+                   }
+        } 
+                
+            
 
             document.getElementById("eventshow").innerHTML = x;
 
@@ -245,7 +247,8 @@
                 loadNow(1);
             }
             preloader();
-        }
+        } 
+        
     </script>
 </body>
 

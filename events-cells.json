@@ -256,7 +256,39 @@
       }
     }
   },
-  "events" : [ {
+  "events" : [  {
+    "active" : "1",
+    "date" : "23rd October, 2019",
+    "details" : "A person must be taught the importance of cleanliness from the childhood by parents and teachers. One such responsibility was taken today on 23rd october by NSS IIT Patna in association with East Central Railway Danapur Division to spread awareness on the railway station of Bihta.",
+    "flink" : "https://www.facebook.com/nss.iitp/posts/339933873494722?__tn__=-R",
+    "id" : "1",
+    "img_url" : "images/events/3.jpg",
+    "subheading" : "Swachta Hi Seva"
+  },  {
+    "active" : "1",
+    "date" : "23rd October, 2019",
+    "details" : "A person must be taught the importance of cleanliness from the childhood by parents and teachers. One such responsibility was taken today on 23rd october by NSS IIT Patna in association with East Central Railway Danapur Division to spread awareness on the railway station of Bihta.",
+    "flink" : "https://www.facebook.com/nss.iitp/posts/339933873494722?__tn__=-R",
+    "id" : "1",
+    "img_url" : "images/events/3.jpg",
+    "subheading" : "Swachta Hi Seva"
+  }, {
+    "active" : "1",
+    "date" : "23rd October, 2019",
+    "details" : "A person must be taught the importance of cleanliness from the childhood by parents and teachers. One such responsibility was taken today on 23rd october by NSS IIT Patna in association with East Central Railway Danapur Division to spread awareness on the railway station of Bihta.",
+    "flink" : "https://www.facebook.com/nss.iitp/posts/339933873494722?__tn__=-R",
+    "id" : "1",
+    "img_url" : "images/events/3.jpg",
+    "subheading" : "Swachta Hi Seva"
+  },  {
+    "active" : "1",
+    "date" : "23rd October, 2019",
+    "details" : "A person must be taught the importance of cleanliness from the childhood by parents and teachers. One such responsibility was taken today on 23rd october by NSS IIT Patna in association with East Central Railway Danapur Division to spread awareness on the railway station of Bihta.",
+    "flink" : "https://www.facebook.com/nss.iitp/posts/339933873494722?__tn__=-R",
+    "id" : "1",
+    "img_url" : "images/events/3.jpg",
+    "subheading" : "Swachta Hi Seva"
+  },  {
     "active" : "1",
     "date" : "23rd October, 2019",
     "details" : "A person must be taught the importance of cleanliness from the childhood by parents and teachers. One such responsibility was taken today on 23rd october by NSS IIT Patna in association with East Central Railway Danapur Division to spread awareness on the railway station of Bihta.",
