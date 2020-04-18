@@ -1,7 +1,7 @@
 <?php
 
 
-include("backend/utility.php");
+
 session_start();
 $errors = [];
 
@@ -58,7 +58,7 @@ if(isset($_POST['submit'])){
 		        $msg="<p>
 		    You have successfully created an Account. 
 		    Please click the link below to activate your quiz page.
-		    <a href='http://nss.iitp.ac.in/quiz/index.php/$link/'>http://nss.iitp.ac.in/quiz/index.php/$link/
+		    <a href='http://localhost/NSSWebpage-Hosted/quiz/test.php?link=$link'>http://localhost/NSSWebpage-Hosted/quiz/test.php?link=$link
 		    </a>
 		    </p>
 
