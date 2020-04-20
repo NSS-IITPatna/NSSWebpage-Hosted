@@ -142,7 +142,8 @@
 <body>
 	<div class="container">
   <h1>NSS IIT Patna Corona Quiz</h1>
- <form action="" method="post" id="frm">
+  <div style="font-weight: bolder,font-size: 30px" id="quiz-time-left"></div>
+ <form action="" method="post" id="frm" name="quiz">
 	<?php
 
    $mysqli =  mysqli_connect('localhost','root','','quiz');
@@ -198,6 +199,36 @@ while ($row = mysqli_fetch_array($result)) {
     </div>
   </form>
 </div>
+
+<script type="text/javascript">
+	if(localStorage.getItem("total_seconds")){
+		var total_sec = localStorage.getItem("total_seconds");
+	} else {
+		var total_sec=60*30;
+	}
+    
+    var c_min=parseInt(total_sec/60);
+    var c_sec=parseInt(total_sec%60);
+    function CheckTime(){
+		if(c_sec < 10){
+			c_sec= "0"+ c_sec ;
+		}
+		if(c_min < 10){
+			c_min= "0"+ c_min ;
+		}
+        document.getElementById("quiz-time-left").innerHTML= 'Time Left: ' + c_min + ' minutes ' + c_sec + ' seconds';
+        if(total_sec<=0){
+            setTimeout('document.quiz.submit()',1);
+        }else{
+            total_sec=total_sec-1;
+            c_min = parseInt(total_sec/60);
+            c_sec = parseInt(total_sec%60);
+			localStorage.setItem("total_seconds",total_sec)
+            setTimeout("CheckTime()",1000);
+        }
+    }
+    setTimeout("CheckTime()",1000);
+</script>
 
 <script>
 // the selector will match all input controls of type :checkbox
