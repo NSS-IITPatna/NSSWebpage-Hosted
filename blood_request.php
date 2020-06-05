@@ -79,7 +79,6 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved<i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu">
                               <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="team.html">Our Team</a></li>
                               <li><a href="faq.html">Faqs</a></li>
                               <li><a href="./mag.html">Magazine 2k18-19</a></li>
                               <li><a href="https://docs.google.com/document/d/1EgpxEHza7NJGcw6CV3m7fv25ZJsbJpALqj1VH3ZOTl8/edit" target="_blank">Rules & Policies</a></li>
@@ -147,6 +146,12 @@
           <div class="wrap-input100 validate-input" pattern="[6-9]{1}[0-9]{9}" data-validate="Valid phone is required: 3456789121">
             <span class="label-input100">Phone Number</span>
             <input class="input100" type="text" name="BPhone" placeholder="Enter your phone number here..." id="BPhone" required>
+            <span class="focus-input100"></span>
+          </div>
+
+          <div class="wrap-input100 validate-input" pattern="[1-30]" data-validate="Valid unit is required: 1">
+            <span class="label-input100">No. of Units of Blood Required</span>
+            <input class="input100" type="text" name="BUnits" placeholder="Enter the number of units of blood required..." id="BUnits" required>
             <span class="focus-input100"></span>
           </div>
 
