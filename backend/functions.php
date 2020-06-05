@@ -258,7 +258,7 @@ function blood_request(){
 		$send_to ="nss@iitp.ac.in";
 
 		if (send_email($send_to,$subject,$msg,$header)){
-			//echo "Your request has been sent to team NSS Team IIT Patna";
+			// echo "Your request has been sent to team NSS Team IIT Patna";
 			$firebase = (new Factory)
 			->withServiceAccount($serviceAccount)
 			->create();
