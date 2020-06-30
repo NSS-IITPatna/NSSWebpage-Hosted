@@ -21,11 +21,11 @@ function submitForm(e) {
 
   // Get values
   var name = getInputVal('BName') var id_roll = getInputVal('BRoll') var email =
-      getInputVal('BEmail') var phone = getInputVal('BPhone') var for_whom =
-          getInputVal('BForWhom') var address = getInputVal('BAddress')
+      getInputVal('BEmail') var phone = getInputVal('BPhone') var units = getInputVal('BUnits') var for_whom =
+          getInputVal('BForWhom') var address = getInputVal('BAddress') 
 
   // Save Message
-  saveMessage(name, id_roll, email, phone, for_whom, address);
+  saveMessage(name, id_roll, email, phone, units, for_whom, address);
 
   // Show alert
   document.querySelector('.alert').style.display = 'block';
@@ -44,13 +44,14 @@ function getInputVal(id) {
   }
 
 // Save form to firebase
-function saveMessage(name, id_roll, email, phone, for_whom, address) {
+function saveMessage(name, id_roll, email, phone, units, for_whom, address) {
   var newBloodRef = bloodRef.push();
   newBloodRef.set({
     name: name,
     id_roll: id_roll,
     email: email,
     phone: phone,
+    units: units,
     blood_for_whom: for_whom,
     address: address
   });

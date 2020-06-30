@@ -237,6 +237,7 @@ function blood_request(){
 		$roll=clean($_POST["BRoll"]);
 		$email=clean($_POST["BEmail"]);
 		$phone=clean($_POST["BPhone"]);
+		$units=clean($_POST["BUnits"]);
 		$for_whom=clean($_POST["BForWhom"]);
 		$address=clean($_POST["BAddress"]);
 		$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/google-service-account.json');
@@ -249,6 +250,7 @@ function blood_request(){
 			<h5>Roll/Employee ID : $roll</h5>
 			<h5>Email : $email</h5>
 			<h5>Phone : $phone</h5>
+			<h5>Units Required : $units</h5>
 			<h5>For Whom : $for_whom</h5>
 			<h5>Address : $address</h5>
 		";
@@ -269,6 +271,7 @@ function blood_request(){
 				'id_roll' => $roll,
 				'email' => $email,
 				'phone'=> $phone,
+				'units_required'=> $units,
 				'blood_for_whom' => $for_whom,
 				'address'=> $address
 			]);
